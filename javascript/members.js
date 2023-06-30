@@ -18,7 +18,7 @@ window.onload = function() {
             name: 'Jack Weatherall',
             info: 'Jack is a rhythm guitarist who also sings for us. He can do a very good Alex Turner impression',
             images: [
-                { src: 'image1.jpg', alt: 'Image 1 of Toby' },
+                { src: 'jack_1.jpg', alt: 'Jack Weatherall in a mirror' },
                 { src: 'image2.jpg', alt: 'Image 2 of Toby' },
                 { src: 'image3.jpg', alt: 'Image 3 of Toby' }
             ]
@@ -45,7 +45,7 @@ window.onload = function() {
             name: 'Cory Shepherd',
             info: 'Cory is a great friend, roadie, and overall helpful dude when it comes to anything whether inside the band or out', // This was not written by Cory haha
             images: [
-                { src: 'image1.jpg', alt: 'Image 1 of Toby' },
+                { src: 'cory_1.jpg', alt: "Cory's portait in a dark style" },
                 { src: 'image2.jpg', alt: 'Image 2 of Toby' },
                 { src: 'image3.jpg', alt: 'Image 3 of Toby' }
             ]
@@ -77,7 +77,7 @@ window.onload = function() {
         var imagesHTML = '';
         for (var i = 0; i < personData.images.length; i++) {
             var image = personData.images[i];
-            imagesHTML += '<img src="../' + image.src + '" alt="' + image.alt + '">';
+            imagesHTML += '<img src="../images/members/' + image.src + '" alt="' + image.alt + '">';
         }
         imagesElement.innerHTML = imagesHTML;
     } else {
