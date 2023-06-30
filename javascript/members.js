@@ -36,7 +36,7 @@ window.onload = function() {
             name: 'Matthew Wharram',
             info: 'Matthew is actually a caveman who has developed the skill to talk amongst humans. He still hits things though',
             images: [
-                { src: 'image1.jpg', alt: 'Image 1 of Toby' },
+                { src: 'matthew_1.jpg', alt: 'Roadman matthew' },
                 { src: 'image2.jpg', alt: 'Image 2 of Toby' },
                 { src: 'image3.jpg', alt: 'Image 3 of Toby' }
             ]
