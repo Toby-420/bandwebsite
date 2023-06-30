@@ -9,9 +9,9 @@ window.onload = function() {
             name: 'Toby Valentine',
             info: 'Toby is a bassist who also "plays our own instruments better than us" - sic James Simpson Millot. They also wrote the code for this website',
             images: [
-                { src: 'image1.jpg', alt: 'Image 1 of Toby' },
-                { src: 'image2.jpg', alt: 'Image 2 of Toby' },
-                { src: 'image3.jpg', alt: 'Image 3 of Toby' }
+                { src: 'image1.jpg', alt: '' },
+                { src: 'image2.jpg', alt: '' },
+                { src: 'image3.jpg', alt: '' }
             ]
         },
 		'jack-w': {
@@ -19,17 +19,17 @@ window.onload = function() {
             info: 'Jack is a rhythm guitarist who also sings for us. He can do a very good Alex Turner impression',
             images: [
                 { src: 'jack_1.jpg', alt: 'Jack Weatherall in a mirror' },
-                { src: 'image2.jpg', alt: 'Image 2 of Toby' },
-                { src: 'image3.jpg', alt: 'Image 3 of Toby' }
+                { src: 'image2.jpg', alt: '' },
+                { src: 'image3.jpg', alt: '' }
             ]
         },
 		'james-sm': {
             name: 'James Simpson-Millott',
             info: 'James is an incredible lead guitarist who has a knack for writing catchy melodies with little effort',
             images: [
-                { src: 'image1.jpg', alt: 'Image 1 of Toby' },
-                { src: 'image2.jpg', alt: 'Image 2 of Toby' },
-                { src: 'image3.jpg', alt: 'Image 3 of Toby' }
+                { src: 'image1.jpg', alt: '' },
+                { src: 'image2.jpg', alt: '' },
+                { src: 'image3.jpg', alt: '' }
             ]
         },
 		'matthew-w': {
@@ -37,8 +37,8 @@ window.onload = function() {
             info: 'Matthew is actually a caveman who has developed the skill to talk amongst humans. He still hits things though',
             images: [
                 { src: 'matthew_1.jpg', alt: 'Roadman matthew' },
-                { src: 'image2.jpg', alt: 'Image 2 of Toby' },
-                { src: 'image3.jpg', alt: 'Image 3 of Toby' }
+                { src: 'image2.jpg', alt: '' },
+                { src: 'image3.jpg', alt: '' }
             ]
         },
 		'cory-s': {
@@ -46,17 +46,17 @@ window.onload = function() {
             info: 'Cory is a great friend, roadie, and overall helpful dude when it comes to anything whether inside the band or out', // This was not written by Cory haha
             images: [
                 { src: 'cory_1.jpg', alt: "Cory's portait in a dark style" },
-                { src: 'image2.jpg', alt: 'Image 2 of Toby' },
-                { src: 'image3.jpg', alt: 'Image 3 of Toby' }
+                { src: 'image2.jpg', alt: '' },
+                { src: 'image3.jpg', alt: '' }
             ]
         },
 		'john-d': {
             name: 'John Dix',
             info: 'John is our sponsor and provider who connected us with NKD music, allowing us to get great discounts on brilliant equipment',
             images: [
-                { src: 'image1.jpg', alt: 'Image 1 of Toby' },
-                { src: 'image2.jpg', alt: 'Image 2 of Toby' },
-                { src: 'image3.jpg', alt: 'Image 3 of Toby' }
+                { src: 'image1.jpg', alt: '' },
+                { src: 'image2.jpg', alt: '' },
+                { src: 'image3.jpg', alt: '' }
             ]
         },
         // Add more people here with their respective data
