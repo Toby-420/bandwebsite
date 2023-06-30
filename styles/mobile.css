@@ -3,3 +3,15 @@ h1,h2,h3{color:#f00;font-family:Helvetica,sans-serif;text-align:center}
 p,a{color:#f00;font-family:Helvetica,sans-serif}
 body{height:100%;background-color:#111;}
 #vid{border:3px solid #00f}
+.thumb {
+    display: inline-block; /* or use 'block' if you want it to take up full width */
+    text-align: center; /* optional: centers the content horizontally */
+}
+
+.thumb .text {
+    display: block; /* ensures the text appears on a separate line */
+    margin: 20px; /* optional: adds spacing between the text and image */
+}
+    .thumb:focus-within img {
+        outline: 2px solid red;
+    }z
