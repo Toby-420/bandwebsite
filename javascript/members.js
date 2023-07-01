@@ -54,8 +54,8 @@ window.onload = function() {
                     alt: 'Jack Weatherall in a mirror'
                 },
                 {
-                    src: 'image2.jpg',
-                    alt: ''
+                    src: 'jack_2.jpg',
+                    alt: 'Jack performing at Brodstock 2023'
                 },
                 {
                     src: 'image3.jpg',

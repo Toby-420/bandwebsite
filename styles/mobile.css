@@ -38,6 +38,7 @@ img {
 .smallimg {
   width: 200px;
   text-align: center;
+	margin: 20px
 }
 .littleimg {
   width: 100px;
