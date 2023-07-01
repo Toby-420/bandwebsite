@@ -28,9 +28,33 @@
 </head>
 
 <body>
+    <script>
+        function toggleSideMenu() {
+            var sideMenu = document.getElementById("sideMenu");
+            
+            if (sideMenu.style.right === "-250px" || sideMenu.style.right === "") {
+                sideMenu.style.right = "0";
+            } else {
+                sideMenu.style.right = "-250px";
+            }
+        }
+    </script>
 
     <header>
-		<h1 id="name">Loading...</h1>
+		<h1 id="name">Loading...</h1> <div class="hamburger" onclick="toggleSideMenu()">
+            <div class="hamburger-bar"></div>
+            <div class="hamburger-bar"></div>
+            <div class="hamburger-bar"></div>
+        </div>
+
+        <div class="side-menu" id="sideMenu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="members">Meet the members</a></li>
+                <li><a href="hiring">Hire us</a></li>
+                <li><a href="information">Information</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
