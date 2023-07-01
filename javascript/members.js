@@ -155,9 +155,9 @@ window.onload = function() {
 					imageSrc: 'nkd.jpg'
                 },
                 {
-                    url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
-                    alt: 'YouTube',
-					imageSrc: 'youtube.png'
+                    url: 'https://www.instagram.com/john_dix08/',
+                    alt: 'Instagram',
+					imageSrc: 'instagram.png'
                 }
             ],
             images: [{
