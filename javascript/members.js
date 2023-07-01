@@ -7,7 +7,10 @@ window.onload = function() {
     var peopleData = {
         'toby-v': {
             name: 'Toby Valentine',
-            info: 'Toby is a bassist who also "plays our own instruments better than us" - sic James Simpson Millot. They also wrote the code for this website',
+            description: 'Toby is a bassist who also "plays our own instruments better than us" - sic James Simpson Millot. They also wrote the code for this website',
+			information: 'Placeholder',
+			link1: '',
+			link2: '',
             images: [
                 { src: 'image1.jpg', alt: '' },
                 { src: 'image2.jpg', alt: '' },
@@ -16,7 +19,10 @@ window.onload = function() {
         },
 		'jack-w': {
             name: 'Jack Weatherall',
-            info: 'Jack is a rhythm guitarist who also sings for us. He can do a very good Alex Turner impression',
+            description: 'Jack is a rhythm guitarist who also sings for us. He can do a very good Alex Turner impression',
+			information: 'Placeholder',
+			link1: '',
+			link2: '',
             images: [
                 { src: 'jack_1.jpg', alt: 'Jack Weatherall in a mirror' },
                 { src: 'image2.jpg', alt: '' },
@@ -25,16 +31,22 @@ window.onload = function() {
         },
 		'james-sm': {
             name: 'James Simpson-Millott',
-            info: 'James is an incredible lead guitarist who has a knack for writing catchy melodies with little effort',
+            description: 'James is an incredible lead guitarist who has a knack for writing catchy melodies with little effort',
+			information: 'Placeholder',
+			link1: '',
+			link2: '',
             images: [
-                { src: 'image1.jpg', alt: '' },
+                { src: 'james_1.jpg', alt: 'James Smiling widely' },
                 { src: 'image2.jpg', alt: '' },
                 { src: 'image3.jpg', alt: '' }
             ]
         },
 		'matthew-w': {
             name: 'Matthew Wharram',
-            info: 'Matthew is actually a caveman who has developed the skill to talk amongst humans. He still hits things though',
+            description: 'Matthew is actually a caveman who has developed the skill to talk amongst humans. He still hits things though',
+			information: 'Placeholder',
+			link1: '',
+			link2: '',
             images: [
                 { src: 'matthew_1.jpg', alt: 'Roadman matthew' },
                 { src: 'image2.jpg', alt: '' },
@@ -43,7 +55,10 @@ window.onload = function() {
         },
 		'cory-s': {
             name: 'Cory Shepherd',
-            info: 'Cory is a great friend, roadie, and overall helpful dude when it comes to anything whether inside the band or out', // This was not written by Cory haha
+            description: 'Cory is a great friend, roadie, and overall helpful dude when it comes to anything whether inside the band or out', // This was not written by Cory haha
+			information: 'Placeholder',
+			link1: '',
+			link2: '',
             images: [
                 { src: 'cory_1.jpg', alt: "Cory's portait in a dark style" },
                 { src: 'image2.jpg', alt: '' },
@@ -52,7 +67,10 @@ window.onload = function() {
         },
 		'john-d': {
             name: 'John Dix',
-            info: 'John is our sponsor and provider who connected us with NKD music, allowing us to get great discounts on brilliant equipment',
+            description: 'John is our sponsor and provider who connected us with NKD music, allowing us to get great discounts on brilliant equipment',
+			information: 'Placeholder',
+			link1: '',
+			link2: '',
             images: [
                 { src: 'image1.jpg', alt: '' },
                 { src: 'image2.jpg', alt: '' },
@@ -70,7 +88,10 @@ window.onload = function() {
     nameElement.innerHTML = personData ? personData.name : 'Unknown';
 
     var infoElement = document.getElementById('info');
-    infoElement.innerHTML = personData ? personData.info : 'No information available.';
+    infoElement.innerHTML = personData ? personData.description : 'No description available.';
+	
+	var infoElement = document.getElementById('more-info');
+    infoElement.innerHTML = personData ? personData.information : 'No information available.';
 
     var imagesElement = document.getElementById('images');
     if (personData && personData.images.length > 0) {
