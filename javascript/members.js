@@ -112,8 +112,8 @@ window.onload = function() {
                     alt: 'Roadman matthew'
                 },
                 {
-                    src: 'image2.jpg',
-                    alt: ''
+                    src: 'matthew_2.jpg',
+                    alt: 'Matthew in a hat'
                 },
                 {
                     src: 'image3.jpg',
