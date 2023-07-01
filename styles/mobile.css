@@ -36,6 +36,9 @@ img {
   width: 85%;
 }
 
+#info, #more-info {
+  text-align: center
+}
 .largeimg {
   width: 500px;
   display: block;

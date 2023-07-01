@@ -134,6 +134,11 @@ window.onload = function() {
                     url: 'https://www.youtube.com/@sicariusatlas/',
                     alt: 'Youtube',
 					imageSrc: 'youtube.png'
+                },
+                {
+                    url: 'https://smeghead.netlify.app',
+                    alt: 'Youtube',
+					imageSrc: 'youtube.png'
                 }
             ],
             images: [{
