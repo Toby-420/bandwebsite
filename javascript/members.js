@@ -68,14 +68,14 @@ window.onload = function() {
             description: 'James is an incredible lead guitarist who has a knack for writing catchy melodies with little effort.',
             information: 'Placeholder.',
             links: [{
-                    url: 'https://www.github.com/toby-420',
-                    alt: 'Github',
-					imageSrc: 'github.png'
+                    url: '',
+                    alt: '',
+					imageSrc: ''
                 },
                 {
-                    url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
-                    alt: 'YouTube',
-					imageSrc: 'youtube.png'
+                    url: '',
+                    alt: '',
+					imageSrc: ''
                 }
             ],
             images: [{
@@ -97,14 +97,14 @@ window.onload = function() {
             description: 'Matthew is a caveman who has developed the skill to talk amongst humans.',
             information: 'His hair is as fluffy as it looks.',
             links: [{
-                    url: 'https://www.github.com/toby-420',
-                    alt: 'Github',
-					imageSrc: 'github.png'
+                    url: '',
+                    alt: '',
+					imageSrc: ''
                 },
                 {
-                    url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
-                    alt: 'YouTube',
-					imageSrc: 'youtube.png'
+                    url: '',
+                    alt: '',
+					imageSrc: ''
                 }
             ],
             images: [{
@@ -126,14 +126,14 @@ window.onload = function() {
             description: '',
             information: '',
             links: [{
-                    url: 'https://www.github.com/toby-420',
-                    alt: 'Github',
-					imageSrc: 'github.png'
+                    url: '',
+                    alt: '',
+					imageSrc: ''
                 },
                 {
-                    url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
-                    alt: 'YouTube',
-					imageSrc: 'youtube.png'
+                    url: '',
+                    alt: '',
+					imageSrc: ''
                 }
             ],
             images: [{
