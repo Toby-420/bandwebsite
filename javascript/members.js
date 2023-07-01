@@ -7,7 +7,7 @@ window.onload = function() {
     var peopleData = {
         'toby-v': {
             name: 'Toby Valentine',
-            description: 'Toby is a bassist who also "plays our own instruments better than us" - sic James Simpson Millot. They also wrote the code for this website',
+            description: 'Toby is a bassist who also "plays our own instruments better than us" - sic James Simpson-Millott. They also wrote the code for this website',
             information: 'Placeholder',
             links: [{
                     url: 'https://www.github.com/toby-420',
@@ -18,6 +18,11 @@ window.onload = function() {
                     url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
                     alt: 'YouTube',
 					imageSrc: 'youtube.png'
+                },
+                {
+                    url: 'https://tobyvalentine.netlify.app',
+                    alt: "Toby's website",
+					imageSrc: 'toby.png' // its a key not a cock
                 }
             ],
             images: [{
@@ -90,7 +95,7 @@ window.onload = function() {
         'matthew-w': {
             name: 'Matthew Wharram',
             description: 'Matthew is actually a caveman who has developed the skill to talk amongst humans. He still hits things though',
-            information: 'Placeholder',
+            information: 'His hair is as fluffy as it looks.<br>He has',
             links: [{
                     url: 'https://www.github.com/toby-420',
                     alt: 'Github',
@@ -119,7 +124,7 @@ window.onload = function() {
         'cory-s': {
             name: 'Cory Shepherd',
             description: 'Cory is a scrootboog', // This was not written by Cory haha
-            information: 'Placeholder',
+            information: '<a href="https://www.urbandictionary.com/define.php?term=scrootboog" target="_blank">Scrootboog is now defined in the dictionary</a>',
             links: [{
                     url: 'https://www.github.com/toby-420',
                     alt: 'Github',
@@ -148,7 +153,7 @@ window.onload = function() {
         'john-d': {
             name: 'John Dix',
             description: 'John is our sponsor and provider who connected us with NKD music, allowing us to get great discounts on brilliant equipment',
-            information: 'Placeholder',
+            information: '',
             links: [{
                     url: 'https://www.facebook.com/NKDMusicstore/',
                     alt: 'NKD Music',
