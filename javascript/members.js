@@ -94,8 +94,8 @@ window.onload = function() {
         },
         'matthew-w': {
             name: 'Matthew Wharram',
-            description: 'Matthew is actually a caveman who has developed the skill to talk amongst humans. He still hits things though',
-            information: 'His hair is as fluffy as it looks.<br>He has',
+            description: 'Matthew is a caveman who has developed the skill to talk amongst humans',
+            information: 'His hair is as fluffy as it looks',
             links: [{
                     url: 'https://www.github.com/toby-420',
                     alt: 'Github',
@@ -123,7 +123,7 @@ window.onload = function() {
         },
         'cory-s': {
             name: 'Cory Shepherd',
-            description: 'Cory is a scrootboog', // This was not written by Cory haha
+            description: 'Cory is a scrootboog',
             information: '<a href="https://www.urbandictionary.com/define.php?term=scrootboog" target="_blank">Scrootboog is now defined in the dictionary</a>',
             links: [{
                     url: 'https://www.github.com/toby-420',
@@ -166,8 +166,8 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'image1.jpg',
-                    alt: ''
+                    src: 'john_1.jpg',
+                    alt: 'John in a forest'
                 },
                 {
                     src: 'image2.jpg',
