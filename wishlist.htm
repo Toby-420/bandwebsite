@@ -29,11 +29,18 @@
 <script>
         function toggleSideMenu() {
             var sideMenu = document.getElementById("sideMenu");
-            
-            if (sideMenu.style.right === "-250px" || sideMenu.style.right === "") {
-                sideMenu.style.right = "0";
+            var sideMenuItems = sideMenu.getElementsByTagName("li");
+
+            if (sideMenu.classList.contains("open")) {
+                sideMenu.classList.remove("open");
+                for (var i = 0; i < sideMenuItems.length; i++) {
+                    sideMenuItems[i].style.transitionDelay = "";
+                }
             } else {
-                sideMenu.style.right = "-250px";
+                sideMenu.classList.add("open");
+                for (var i = 0; i < sideMenuItems.length; i++) {
+                    sideMenuItems[i].style.transitionDelay = (i * 40) + "ms";
+                }
             }
         }
     </script>

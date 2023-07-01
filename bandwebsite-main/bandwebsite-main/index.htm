@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="en-GB">
 
 <head>
-    <title>Members of the band</title>
+    <title>Deep Sea Lemons</title>
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1238px)" href="styles/desktop.css" title="default" id="css_desktop">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1237px) and (min-width: 580px)" href="styles/mobile.css" title="default" id="css_mobile">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 579px)" href="styles/supermobile.css" title="default" id="css_mobile">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <link rel="canonical" href="https://deepsealemons.netlify.app/">
 
     <!-- God I hate you, Apple -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.png">
@@ -20,13 +20,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1 , viewport-fit=auto">
     <meta name="description" content="Deep Sea Lemons Official Website">
     <meta name="keywords" content="deep sea lemons, band, hiring, rock, bass">
-    <meta name="author" content="Toby Valentine, Jack Weatherall">
+    <meta name="author" content="Toby Valentine">
     <meta name="revisit-after" content="2 days">
     <meta name="darkreader-lock">
+    <script src="hamburger.js"></script>
+
+   
 </head>
 
 <body>
-<script>
+    <script>
         function toggleSideMenu() {
             var sideMenu = document.getElementById("sideMenu");
             var sideMenuItems = sideMenu.getElementsByTagName("li");
@@ -39,15 +42,15 @@
             } else {
                 sideMenu.classList.add("open");
                 for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = (i * 40) + "ms";
+                    sideMenuItems[i].style.transitionDelay = (i * 100) + "ms";
                 }
             }
         }
     </script>
 
     <header>
-        <h1>Meet the members of the band</h1>
-		<div class="hamburger" onclick="toggleSideMenu()">
+        <h1>Welcome to the Official Website of Deep Sea Lemons</h1>
+        <div class="hamburger" onclick="toggleSideMenu()">
             <div class="hamburger-bar"></div>
             <div class="hamburger-bar"></div>
             <div class="hamburger-bar"></div>
@@ -55,7 +58,7 @@
 
         <div class="side-menu" id="sideMenu">
             <ul>
-                <li><a href="index">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="members" target="_blank">Meet the members</a></li>
                 <li><a href="hiring" target="_blank">Hire us</a></li>
                 <li><a href="jobs" target="_blank">Jobs</a></li>
@@ -67,50 +70,20 @@
     </header>
 
     <main>
-        <h2>Players:</h2>
+        <p>We are Deep Sea Lemons</p>
+        <br>
+        <p>Our socials</p>
+        <a href="https://twitter.com/DeepSeaLemons/" target="_blank" class="preview">
+            <img src="images/icons/twitter.png" alt="Our twitter" class="preview tinyimg">
+        </a>
+        <a href="https://www.instagram.com/deep_sea_lemons/" target="_blank" class="preview">
+            <img src="images/icons/instagram.png" alt="Our instagram" class="preview tinyimg">
+        </a>
 
-        <div class="thumb">
-                <p>James Simpson-Millott<br>(Lead Guitar / Backing vocals)</p>
-            <a href="information/members?name=james-sm" target="_blank">
-                <img src="images/members/james_1.jpg" alt="James Simpson-Millott" class="preview smallimg">
-            </a>
-        </div>
-
-        <div class="thumb">
-                <p>Jack Weatherall<br>(Rhythm Guitar / Lead vocals)</p>
-            <a href="information/members?name=jack-w" target="_blank">
-                <img src="images/members/jack_1.jpg" alt="Jack Weatherall" class="preview smallimg">
-            </a>
-        </div>
-
-        <div class="thumb">
-                <p>Matthew Wharram<br>(Caveman / Backing vocals)</p>
-            <a href="information/members?name=matthew-w" target="_blank">
-                <img src="images/members/matthew_1.jpg" alt="Matthew Wharram" class="preview smallimg">
-            </a>
-        </div>
-
-        <div class="thumb">
-                <p>Toby Valentine<br>(Bass)</p>
-            <a href="information/members?name=toby-v" target="_blank">
-                <img src="images/members/toby_1.jpg" alt="Toby Valentine" class="preview smallimg">
-            </a>
-        </div>
-		
-        <h2>Crew:</h2>
-
-        <div class="thumb">
-                <p>Cory Shepherd<br>(Roadie)</p>
-            <a href="information/members?name=cory-s" target="_blank">
-                <img src="images/members/cory_1.jpg" alt="Cory Shepherd" class="preview smallimg">
-            </a>
-        </div>
-        <div class="thumb">
-                <p>John Dix<br>(NKD Representative)</p>
-            <a href="information/members?name=john-d" target="_blank">
-                <img src="images/members/john_1.jpg" alt="John Dix" class="preview smallimg">
-            </a>
-        </div>
+        <p>Sponsors</p>
+        <a href="https://www.facebook.com/NKDMusicstore/" target="_blank" class="preview">
+            <img src="images/icons/nkd.jpg" alt="NKD Music" class="preview tinyimg">
+        </a>
     </main>
 
 </body>

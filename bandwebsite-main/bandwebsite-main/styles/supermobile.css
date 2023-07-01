@@ -4,7 +4,7 @@ h1, h2 {
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
-p, a, h3 , li{
+p, a, h3, li {
   color: #b3c808;
   font-family: Helvetica, sans-serif;
 }
@@ -35,7 +35,6 @@ img {
 .smallimg {
   width: 200px;
   text-align: center;
-	margin: 20px
 }
 .littleimg {
   width: 100px;
@@ -70,45 +69,23 @@ img {
   margin-bottom: 0;
 }
 .side-menu {
-    position: fixed;
-    top: 0;
-    right: -250px;
-    width: 250px;
-    max-width: 100%;
-    height: auto;
-    background-color: #000000;
-    transition: right 0.3s ease-out;
-    z-index: 999;
-    overflow: hidden;
-    padding: 20px;
-    box-sizing: border-box;
-    border-left: 4px solid #b3c808;
-    border-bottom: 4px solid #b3c808; /* Add a bottom border */
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #000;
+  transition: right 0.3s ease-in-out;
+  z-index: 9998;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 4px solid #b3c808;
+  border-bottom: 4px solid #b3c808;
 }
-
+.side-menu ul {
+  list-style: none;
+  padding: 20px;
+}
 .side-menu li {
-    opacity: 0;
-    transform: translateX(-20px); /* Adjust the initial position */
-    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
-    margin-bottom: 10px;
-}
-
-.side-menu.open {
-    right: 0;
-}
-
-.side-menu.open ul li {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.side-menu.open:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -250px;
-    width: calc(250px + 4px);
-    height: 100%;
-    background-color: #000000;
-    z-index: -1;
+  margin-bottom: 10px;
 }

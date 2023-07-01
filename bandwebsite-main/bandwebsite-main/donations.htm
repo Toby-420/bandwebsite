@@ -3,13 +3,12 @@
 <html lang="en-GB">
 
 <head>
-    <title>Deep Sea Lemons</title>
+    <title>Donations</title>
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1238px)" href="styles/desktop.css" title="default" id="css_desktop">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1237px) and (min-width: 580px)" href="styles/mobile.css" title="default" id="css_mobile">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 579px)" href="styles/supermobile.css" title="default" id="css_mobile">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="canonical" href="https://deepsealemons.netlify.app/">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
 
     <!-- God I hate you, Apple -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.png">
@@ -21,44 +20,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1 , viewport-fit=auto">
     <meta name="description" content="Deep Sea Lemons Official Website">
     <meta name="keywords" content="deep sea lemons, band, hiring, rock, bass">
-    <meta name="author" content="Toby Valentine, Jack Weatherall">
+    <meta name="author" content="Toby Valentine">
     <meta name="revisit-after" content="2 days">
     <meta name="darkreader-lock">
 </head>
 
 <body>
-     <script>
+<script>
         function toggleSideMenu() {
             var sideMenu = document.getElementById("sideMenu");
-            var sideMenuItems = sideMenu.getElementsByTagName("li");
-
-            if (sideMenu.classList.contains("open")) {
-                sideMenu.classList.remove("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = "";
-                }
+            
+            if (sideMenu.style.right === "-250px" || sideMenu.style.right === "") {
+                sideMenu.style.right = "0";
             } else {
-                sideMenu.classList.add("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = (i * 40) + "ms";
-                }
+                sideMenu.style.right = "-250px";
             }
         }
     </script>
 
     <header>
-        <h1>Welcome to the Official Website of Deep Sea Lemons</h1>
-    </header>
-
-    <main>
-		<p class="center">We are Deep Sea Lemons</p>
-		<br>
-		<a class="center" href="members" target="_blank">Meet the members</a>
-		<br>
-		<a class="center" href="hiring" target="_blank">Hire us</a>
-		<br>
-		<a class="center" href="jobs" target="_blank">Jobs</a>
-        <div class="hamburger" onclick="toggleSideMenu()">
+		<h1>Donate to us</h1>
+			<div class="hamburger" onclick="toggleSideMenu()">
             <div class="hamburger-bar"></div>
             <div class="hamburger-bar"></div>
             <div class="hamburger-bar"></div>
@@ -66,7 +48,7 @@
 
         <div class="side-menu" id="sideMenu">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="index">Home</a></li>
                 <li><a href="members" target="_blank">Meet the members</a></li>
                 <li><a href="hiring" target="_blank">Hire us</a></li>
                 <li><a href="jobs" target="_blank">Jobs</a></li>
@@ -75,20 +57,13 @@
                 <li><a href="LICENSE" target="_blank">License</a></li>
             </ul>
         </div>
-		<br>
-		<p>Our socials</p>
-        <a href="https://twitter.com/DeepSeaLemons/" target="_blank" class="preview">
-            <img src="images/icons/twitter.png" alt="Our twitter" class="preview tinyimg">
-        </a>
-        <a href="https://www.instagram.com/deep_sea_lemons/" target="_blank" class="preview">
-            <img src="images/icons/instagram.png" alt="Our instagram" class="preview tinyimg">
-        </a>
-		
+    </header>
 
-        <p>Sponsors</p>
-        <a href="https://www.facebook.com/NKDMusicstore/" target="_blank" class="preview">
-            <img src="images/icons/nkd.jpg" alt="NKD Music" class="preview tinyimg">
-        </a>
+    <main>
+		<h2>Why?</h2>
+		<p>As we are very new to the music scene - relatively to others - we do not get any money from this. We are very much playing for a song.<br>Anything donated here is guaranteed to go directly into the band account for spending on equipment such as microphones, PAs, and strings.<br>This will probably cease to exist if we start to get any serious amount of income which would allow us to continue without donations.</p>
+		<h2>Where?</h2>
+		<p>Shortly, we will probably be setting up a joint account for the band in some form. We will allow transfers to this.</p>
     </main>
 
 </body>
