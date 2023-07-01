@@ -15,4 +15,11 @@ img{
 	border-radius: 10px}
 .smallimg{
 	width: 200px;
+    text-align: center; /* optional: centers the content horizontally */
 }
+.littleimg{
+	width: 100px
+}
+
+.grid-container{display:grid;grid-template-columns:59% 40%;grid-template-rows:repeat(3,100px);grid-gap:10px;}
+.grid-item{border-right: 1px}

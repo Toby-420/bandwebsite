@@ -4,9 +4,9 @@ p,a{color:#b3c808;font-family:Helvetica,sans-serif}
 body{height:100%;background-color:#0F222A;}
 #vid{border:3px solid #00f}
 .thumb {
-    display: inline-block; /* or use 'block' if you want it to take up full width */
-    text-align: center; /* optional: centers the content horizontally */
-    margin: 20px; /* optional: adds spacing between the text and image */
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
 }
     .thumb:focus-within img {
         outline: 2px solid #b3c808;
@@ -15,4 +15,12 @@ img{
 	border-radius: 10px}
 .smallimg{
 	width: 200px;
+    text-align: center;
 }
+.littleimg{
+	width: 100px;
+	margin: 10px;
+}
+
+.grid-container{display:grid;grid-template-columns:59% 40%;grid-template-rows:repeat(3,100px);grid-gap:10px;}
+.grid-item{border-right: 1px}

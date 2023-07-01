@@ -15,4 +15,8 @@ img{
 	border-radius: 10px}
 .smallimg{
 	width: 200px;
+    text-align: center; /* optional: centers the content horizontally */
+}
+.littleimg{
+	width: 100px
 }
