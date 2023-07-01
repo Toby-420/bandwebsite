@@ -4,7 +4,7 @@ h1, h2 {
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
-p, a, h3 {
+p, a, h3 , li{
   color: #b3c808;
   font-family: Helvetica, sans-serif;
 }
@@ -22,6 +22,11 @@ body {
 }
 img {
   border-radius: 10px;
+}
+
+.largeimg {
+  width: 400px;
+  margin: 10px;
 }
 .mediumimg {
   width: 300px;
