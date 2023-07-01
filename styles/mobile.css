@@ -13,6 +13,10 @@ body{height:100%;background-color:#0F222A;}
     }
 img{
 	border-radius: 10px}
+.mediumimg{
+	width: 400px;
+	margin: 10px;
+}
 .smallimg{
 	width: 200px;
     text-align: center;

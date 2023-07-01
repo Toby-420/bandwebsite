@@ -26,8 +26,8 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'image1.jpg',
-                    alt: ''
+                    src: 'toby_1.jpg',
+                    alt: 'Toby next to an electric drum kit and railway sign'
                 },
                 {
                     src: 'image2.jpg',
@@ -200,7 +200,7 @@ window.onload = function() {
     var imagesHTML = '';
     for (var i = 0; i < personData.images.length; i++) {
       var image = personData.images[i];
-      imagesHTML += '<img src="../images/members/' + image.src + '" alt="' + image.alt + '">';
+      imagesHTML += '<img src="../images/members/' + image.src + '" alt="' + image.alt + '" class="preview mediumimg">';
     }
     imagesElement.innerHTML = imagesHTML;
   } else {
