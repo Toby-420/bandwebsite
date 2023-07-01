@@ -1,0 +1,4 @@
+# robots.txt for the official DSL website
+
+User-agent: *
+Disallow: /images/*

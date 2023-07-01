@@ -170,8 +170,8 @@ window.onload = function() {
                     alt: 'John in a forest'
                 },
                 {
-                    src: 'image2.jpg',
-                    alt: ''
+                    src: 'john_2.jpg',
+                    alt: 'John vio'
                 },
                 {
                     src: 'image3.jpg',
