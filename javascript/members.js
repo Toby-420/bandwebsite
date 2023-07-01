@@ -131,9 +131,9 @@ window.onload = function() {
 					imageSrc: 'github.png'
                 },
                 {
-                    url: '',
-                    alt: '',
-					imageSrc: ''
+                    url: 'https://www.youtube.com/@sicariusatlas/',
+                    alt: 'Youtube',
+					imageSrc: 'youtube.png'
                 }
             ],
             images: [{
