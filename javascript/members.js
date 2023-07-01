@@ -200,7 +200,7 @@ window.onload = function() {
     var imagesHTML = '';
     for (var i = 0; i < personData.images.length; i++) {
       var image = personData.images[i];
-      imagesHTML += '<img src="../images/members/' + image.src + '" alt="' + image.alt + '" class="preview mediumimg">';
+      imagesHTML += '<img src="images/members/' + image.src + '" alt="' + image.alt + '" class="preview mediumimg">';
     }
     imagesElement.innerHTML = imagesHTML;
   } else {
@@ -213,7 +213,7 @@ window.onload = function() {
     for (var i = 0; i < personData.links.length; i++) {
       var link = personData.links[i];
       var linkHTML = '<a href="' + link.url + '" target="_blank">';
-      linkHTML += '<img src="../images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="preview littleimg">';
+      linkHTML += '<img src="images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="preview littleimg">';
       linkHTML += '</a>';
       linksHTML += linkHTML;
     }

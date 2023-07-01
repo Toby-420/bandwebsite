@@ -26,7 +26,12 @@ body {
 img {
   border-radius: 10px;
 }
-
+.exlargeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
 
 .largeimg {
   width: 500px;
