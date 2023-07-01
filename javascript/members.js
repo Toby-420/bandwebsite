@@ -123,12 +123,12 @@ window.onload = function() {
         },
         'cory-s': {
             name: 'Cory Shepherd',
-            description: '',
-            information: '',
+            description: 'Cory is our first roadie',
+            information: 'He also came up with the word scrootboog',
             links: [{
-                    url: '',
-                    alt: '',
-					imageSrc: ''
+                    url: 'https://github.com/SicariusAtlas',
+                    alt: 'Github',
+					imageSrc: 'github.png'
                 },
                 {
                     url: '',
