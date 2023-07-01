@@ -27,10 +27,15 @@ img {
   border-radius: 10px;
 }
 
+
 .largeimg {
   width: 500px;
-  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+
 .mediumimg {
   width: 300px;
   margin: 10px;
