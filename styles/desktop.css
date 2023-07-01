@@ -99,6 +99,11 @@ img {
 .smallimg {
   width: 200px;
   text-align: center;
+  margin: 30px
+}
+
+#info, #more-info {
+  text-align: center
 }
 
 .littleimg {
