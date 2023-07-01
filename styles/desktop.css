@@ -131,6 +131,7 @@ img {
     box-sizing: border-box;
     border-left: 4px solid #b3c808;
     border-bottom: 4px solid #b3c808; /* Add a bottom border */
+	border-radius: 0 0 0 25px;
 }
 
 .side-menu li {
