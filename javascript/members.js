@@ -123,7 +123,7 @@ window.onload = function() {
         },
         'cory-s': {
             name: 'Cory Shepherd',
-            description: 'Cory is our first roadie who is also a massive racist',
+            description: 'Cory is our first roadie',
             information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
             links: [{
                     url: 'https://github.com/SicariusAtlas',
@@ -134,12 +134,12 @@ window.onload = function() {
                     url: 'https://www.youtube.com/@sicariusatlas/',
                     alt: 'Youtube',
 					imageSrc: 'youtube.png'
-                },
-                {
-                    url: 'https://smeghead.netlify.app',
-                    alt: 'Youtube',
-					imageSrc: 'youtube.png'
                 }
+                // {
+                    // url: 'https://smeghead.netlify.app',
+                    // alt: 'Youtube',
+					// imageSrc: 'youtube.png'
+                // }
             ],
             images: [{
                     src: 'cory_1.jpg',
