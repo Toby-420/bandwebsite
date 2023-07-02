@@ -135,6 +135,10 @@ button {
     opacity: 1;
     transform: translateX(0);
 }
+.otherlittleimg {
+	height: 100px;
+	margin: 10px
+}
 
 .side-menu.open:after {
     content: "";

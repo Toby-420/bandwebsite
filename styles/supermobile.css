@@ -54,7 +54,7 @@ img {
 }
 .littleimg {
   width: 100px;
-  margin: 10px;
+  margin: 5px;
 }
 .tinyimg {
   width: 50px;
@@ -127,6 +127,10 @@ button {
 .side-menu.open ul li {
     opacity: 1;
     transform: translateX(0);
+}
+.otherlittleimg {
+	height: 100px;
+	margin: 5px
 }
 
 .side-menu.open:after {

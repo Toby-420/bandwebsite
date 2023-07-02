@@ -123,7 +123,7 @@ window.onload = function() {
         },
         'cory-s': {
             name: 'Cory Shepherd',
-            description: 'Cory is our first roadie',
+            description: 'Cory is our first roadie.',
             information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
             links: [{
                     url: 'https://github.com/SicariusAtlas',
@@ -157,7 +157,7 @@ window.onload = function() {
         },
         'john-d': {
             name: 'John Dix',
-            description: 'John is our invaluable contact for NKD Music, our generous sponsor',
+            description: 'John is our invaluable contact for NKD Music, our generous sponsor.',
             information: "Thanks to his efforts, we have forged a fruitful partnership with the music shop, allowing us to receive top-notch gear and equipment. As our liaison with NKD Music, he goes above and beyond to ensure our band's needs are met. His dedication and strong networking skills have helped secure this vital support, enabling us to enhance our performances and musical capabilities. We are incredibly grateful for his instrumental role in fostering this partnership, which has been pivotal in our journey as a band. His unwavering commitment to our success makes him an indispensable member of our crew, and we are fortunate to have him on our side.",
             links: [{
                     url: 'https://www.facebook.com/NKDMusicstore/',
