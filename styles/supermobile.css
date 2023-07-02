@@ -66,6 +66,12 @@ img {
 .preview {
   text-decoration: none;
 }
+
+
+button {
+	background-color: black;
+	border-radius: 5px
+}
 .hamburger {
   position: fixed;
   top: 20px;
@@ -112,7 +118,7 @@ img {
         .socials-sponsors {
             position: absolute;
             bottom: 0;
-            width: 100%;
+            width: 98%;
             height: 100px;
             display: flex;
             align-items: center;

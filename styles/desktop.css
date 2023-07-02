@@ -31,6 +31,11 @@ body {
   margin: 20px;
 }
 
+button {
+	background-color: black;
+	border-radius: 5px
+}
+
 .thumb:focus-within img {
   outline: 2px solid #b3c808;
 }

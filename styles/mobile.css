@@ -39,6 +39,12 @@ img {
 #info, #more-info {
   text-align: center
 }
+
+
+button {
+	background-color: black;
+	border-radius: 5px
+}
 .largeimg {
   width: 500px;
   display: block;
