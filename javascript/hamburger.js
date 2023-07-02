@@ -20,7 +20,7 @@ function toggleSideMenu() {
     setTimeout(function() {
       sideMenu.classList.add("open");
       for (var i = 0; i < sideMenuItems.length; i++) {
-        sideMenuItems[i].style.transitionDelay = (i * 100) + "ms";
+        sideMenuItems[i].style.transitionDelay = (i * 20) + "ms";
       }
     }, 0); // Delay of 0 milliseconds to ensure the display property is set first
   }
