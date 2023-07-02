@@ -131,10 +131,6 @@ button {
     right: 0;
 	display: grid;
 }
-.space.thumb {
-	outline: 3px solid #000;
-	border-radius: 10px
-}
 .side-menu.open ul li {
     opacity: 1;
     transform: translateX(0);
