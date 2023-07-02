@@ -59,6 +59,10 @@ align-items: center;
 justify-content: center;
 }
 
+.space {
+	margin: 100px
+}
+
 .socials-sponsors p {
 margin-bottom: 10px;
 }
@@ -95,6 +99,10 @@ width: 50%;
 .mediumimg {
 width: 500px;
 margin: 10px;
+}
+.space.thumb {
+	outline: 3px solid #000;
+	border-radius: 10px
 }
 
 .smallimg {
