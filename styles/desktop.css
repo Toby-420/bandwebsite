@@ -168,6 +168,9 @@ img {
 .hamburger-bar:last-child {
   margin-bottom: 0;
 }
+.hamburger-box {
+	color: white
+}
 
 .side-menu {
     position: fixed;
@@ -179,6 +182,7 @@ img {
     background-color: #000000;
     transition: right 0.2s ease-out;
     z-index: 999;
+	display: none;
     overflow: hidden;
     padding: 20px;
     box-sizing: border-box;
@@ -196,6 +200,7 @@ img {
 
 .side-menu.open {
     right: 0;
+	display: grid;
 }
 
 .side-menu.open ul li {

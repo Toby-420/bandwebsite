@@ -14,6 +14,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple/152.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/apple/120.png">
+	
+	<script src="javascript/hamburger.js" async></script>
 
     <meta charset="UTF-8">
     <meta name="rating" content="general">
@@ -26,32 +28,14 @@
 </head>
 
 <body>
-<script>
-        function toggleSideMenu() {
-            var sideMenu = document.getElementById("sideMenu");
-            var sideMenuItems = sideMenu.getElementsByTagName("li");
-
-            if (sideMenu.classList.contains("open")) {
-                sideMenu.classList.remove("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = "";
-                }
-            } else {
-                sideMenu.classList.add("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = (i * 40) + "ms";
-                }
-            }
-        }
-    </script>
-
     <header>
 		<h1>What we would like to have</h1>
-			<button class="hamburger" onclick="toggleSideMenu()">
-            <div class="hamburger-bar"></div>
-            <div class="hamburger-bar"></div>
-            <div class="hamburger-bar"></div>
-        </button>
+		
+	<button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
+	<span class="hamburger-box" role="presentation">
+	<span class="hamburger-inner" role="presentation"></span>
+	</span>
+	</button>
 
         <div class="side-menu" id="sideMenu">
             <ul>

@@ -7,13 +7,15 @@
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1238px)" href="styles/desktop.css" title="default" id="css_desktop">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1237px) and (min-width: 580px)" href="styles/mobile.css" title="default" id="css_mobile">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 579px)" href="styles/supermobile.css" title="default" id="css_mobile">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 579px)" href="styles/supermobile.css" title="default" id="css_supermobile">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- God I hate you, Apple -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple/152.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/apple/120.png">
+	
+	<script src="javascript/hamburger.js" async></script>
 
     <meta charset="UTF-8">
     <meta name="rating" content="general">
@@ -26,44 +28,15 @@
 </head>
 
 <body>
-<script>
-        function toggleSideMenu() {
-            var sideMenu = document.getElementById("sideMenu");
-            var sideMenuItems = sideMenu.getElementsByTagName("li");
 
-            if (sideMenu.classList.contains("open")) {
-                sideMenu.classList.remove("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = "";
-                }
-            } else {
-                sideMenu.classList.add("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = (i * 40) + "ms";
-                }
-            }
-        }
-    </script>
 
     <header>
 		<h1>Hiring</h1>
-    </header>
-
-    <main>
-		<h2>What you can hire us for</h2>
-		<p class="center">The usual events such as parties, weddings (yes we can play Uptown funk as Toby has a 5 string bass), and gigs at pubs can be done.<br>Just give us the set list if you have one. If not, tell us what sort of music you would like and we will find something.</p>
-		<br>
-		<h2>Previous events</h2>
-		<p class="center">In both 2022 and 2023, Deep Sea Lemons <a href="https://twitter.com/Brodstock_" target="_blank">performed at Brodstock Music Festival</a>, opening the main stage<br>We like to think that we have improved drastically since the first one.</p>
-		<p class="center">If you have a question or are thinking of asking us to play, <a href="mailto://deepsealemonsofficial@gmail.com" target="_blank">contact our email</a></p>
-		<a href="images/performances/brodstock-2023_1.jpg" target="_blank">
-            <img src="images/performances/brodstock-2023_2.jpg" alt="Deep Sea Lemons at Brodstock 2023" class="preview largeimg">
-        </a>
-				<button class="hamburger" onclick="toggleSideMenu()">
-            <div class="hamburger-bar"></div>
-            <div class="hamburger-bar"></div>
-            <div class="hamburger-bar"></div>
-        </button>
+			<button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
+	<span class="hamburger-box" role="presentation">
+	<span class="hamburger-inner" role="presentation"></span>
+	</span>
+	</button>
 
         <div class="side-menu" id="sideMenu">
             <ul>
@@ -76,6 +49,19 @@
                 <li><a href="LICENSE" target="_blank">License</a></li>
             </ul>
         </div>
+    </header>
+
+    <main>
+		<h2>What you can hire us for</h2>
+		<p class="center">The usual events such as parties, weddings (yes we can play Uptown funk as Toby has a 5 string bass), and gigs at pubs can be done.<br>Just give us the set list if you have one. If not, tell us what sort of music you would like and we will find something.</p>
+		<br>
+		<h2>Previous events</h2>
+		<p class="center">In both 2022 and 2023, Deep Sea Lemons <a href="https://twitter.com/Brodstock_" target="_blank">performed at Brodstock Music Festival</a>, opening the main stage<br>We like to think that we have improved drastically since the first one.</p>
+		<p class="center">If you have a question or are thinking of asking us to play, <a href="mailto://deepsealemonsofficial@gmail.com" target="_blank">contact our email</a></p>
+		<a href="images/performances/brodstock-2023_1.jpg" target="_blank">
+            <img src="images/performances/brodstock-2023_2.jpg" alt="Deep Sea Lemons at Brodstock 2023" class="preview largeimg">
+        </a>
+
   </main>
 
 </body>

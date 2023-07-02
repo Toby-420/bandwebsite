@@ -7,13 +7,15 @@
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1238px)" href="styles/desktop.css" title="default" id="css_desktop">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1237px) and (min-width: 580px)" href="styles/mobile.css" title="default" id="css_mobile">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 579px)" href="styles/supermobile.css" title="default" id="css_mobile">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 579px)" href="styles/supermobile.css" title="default" id="css_supermobile">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- God I hate you, Apple -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple/152.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/apple/120.png">
+	
+	<script src="javascript/hamburger.js" async></script>
 
     <meta charset="UTF-8">
     <meta name="rating" content="general">
@@ -26,32 +28,15 @@
 </head>
 
 <body>
-<script>
-        function toggleSideMenu() {
-            var sideMenu = document.getElementById("sideMenu");
-            var sideMenuItems = sideMenu.getElementsByTagName("li");
 
-            if (sideMenu.classList.contains("open")) {
-                sideMenu.classList.remove("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = "";
-                }
-            } else {
-                sideMenu.classList.add("open");
-                for (var i = 0; i < sideMenuItems.length; i++) {
-                    sideMenuItems[i].style.transitionDelay = (i * 40) + "ms";
-                }
-            }
-        }
-    </script>
 
     <header>
 		<h1>Jobs - Become part of our band</h1>
-			<button class="hamburger" onclick="toggleSideMenu()">
-            <div class="hamburger-bar"></div>
-            <div class="hamburger-bar"></div>
-            <div class="hamburger-bar"></div>
-        </button>
+	<button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
+	<span class="hamburger-box" role="presentation">
+	<span class="hamburger-inner" role="presentation"></span>
+	</span>
+	</button>
 
         <div class="side-menu" id="sideMenu">
             <ul>
