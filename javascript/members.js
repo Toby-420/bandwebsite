@@ -7,8 +7,8 @@ window.onload = function() {
     var peopleData = {
         'toby-v': {
             name: 'Toby Valentine',
-            description: 'Toby is a bassist who also "plays our own instruments better than us" - sic James Simpson-Millott. They also wrote the code for this website.',
-            information: 'Placeholder.',
+            description: 'Toby is a bassist who plays incredibly funky riffs. They also wrote the code for this website.', // can you tell this description was written by chatgpt
+            information: "Let's meet our extraordinary bassist, the backbone of our band. Armed with an Ibanez Soundgear bass and an SX 5-string bass, he effortlessly lays down the foundation of our music. With a keen sense of groove, he infuses our songs, be it original compositions or covers, with an infectious rhythm that moves the audience. His skill on the bass is unparalleled, earning him the admiration of the entire band. In fact, his mastery has led some to jokingly claim that he can play our instruments better than we can. With his impeccable timing and unwavering dedication, he brings the heartbeat to our music, making each performance an unforgettable experience.",
             links: [{
                     url: 'https://www.github.com/toby-420',
                     alt: 'Github',
@@ -42,7 +42,7 @@ window.onload = function() {
         'jack-w': {
             name: 'Jack Weatherall',
             description: 'Jack is a rhythm guitarist who also sings for us. He can do a very good Alex Turner impression.',
-            information: 'Placeholder.',
+            information: "Introducing our dynamic lead vocalist and rhythm guitarist. With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
                     alt: 'Instagram',
@@ -66,7 +66,7 @@ window.onload = function() {
         'james-sm': {
             name: 'James Simpson-Millott',
             description: 'James is an incredible lead guitarist who has a knack for writing catchy melodies with little effort.',
-            information: 'Placeholder.',
+            information: "Our lead guitarist is a remarkable musician, known for his exceptional skills and towering presence. He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
             links: [{
                     url: '',
                     alt: '',
@@ -95,7 +95,7 @@ window.onload = function() {
         'matthew-w': {
             name: 'Matthew Wharram',
             description: 'Matthew is a caveman who has developed the skill to talk amongst humans.',
-            information: 'His hair is as fluffy as it looks.',
+            information: "We have our exceptional drummer who keeps the rhythm tight and the energy high. With an innate sense of rhythm and a natural ability to improvise, he brings a dynamic presence to our performances. Whether it's following the structured beats of our songs or creating spontaneous fills on the spot, he never fails to impress. In addition to his drumming prowess, he contributes backing vocals, adding depth and harmony to our sound. As the host of most of our band practices, his house has become the creative hub where we refine our music and strengthen our bond as a band. With his infectious energy and unwavering commitment, he sets the beat that drives us forward, making each rehearsal and performance a memorable one.",
             links: [{
                     url: '',
                     alt: '',
@@ -123,8 +123,8 @@ window.onload = function() {
         },
         'cory-s': {
             name: 'Cory Shepherd',
-            description: 'Cory is our first roadie',
-            information: 'He also came up with the word scrootboog',
+            description: 'Cory is our first roadie who is also a massive racist',
+            information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
             links: [{
                     url: 'https://github.com/SicariusAtlas',
                     alt: 'Github',
@@ -158,7 +158,7 @@ window.onload = function() {
         'john-d': {
             name: 'John Dix',
             description: 'John is our sponsor and provider who connected us with NKD music, allowing us to get great discounts on brilliant equipment.',
-            information: '',
+            information: "Last but certainly not least, we have our invaluable contact for NKD Music, our generous sponsor. Thanks to his efforts, we have forged a fruitful partnership with the music shop, allowing us to receive top-notch gear and equipment. As our liaison with NKD Music, he goes above and beyond to ensure our band's needs are met. His dedication and strong networking skills have helped secure this vital support, enabling us to enhance our performances and musical capabilities. We are incredibly grateful for his instrumental role in fostering this partnership, which has been pivotal in our journey as a band. His unwavering commitment to our success makes him an indispensable member of our crew, and we are fortunate to have him on our side.",
             links: [{
                     url: 'https://www.facebook.com/NKDMusicstore/',
                     alt: 'NKD Music',
