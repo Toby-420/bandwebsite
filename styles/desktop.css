@@ -171,6 +171,9 @@ img {
 .hamburger-box {
 	color: white
 }
+#sideMenu {
+  transition: transform 0.3s ease;
+}
 
 .side-menu {
     position: fixed;
