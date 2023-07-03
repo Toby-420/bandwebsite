@@ -28,14 +28,6 @@ window.onload = function() {
             images: [{
                     src: 'toby_1.jpg',
                     alt: 'Toby next to an electric drum kit and railway sign'
-                },
-                {
-                    src: 'image2.jpg',
-                    alt: ''
-                },
-                {
-                    src: 'image3.jpg',
-                    alt: ''
                 }
             ]
         },
@@ -56,10 +48,6 @@ window.onload = function() {
                 {
                     src: 'jack_2.jpg',
                     alt: 'Jack performing at Brodstock 2023'
-                },
-                {
-                    src: 'image3.jpg',
-                    alt: ''
                 }
             ]
         },
@@ -67,28 +55,11 @@ window.onload = function() {
             name: 'James Simpson-Millott',
             description: 'James is our lead guitarist is a remarkable musician, known for his exceptional skills and towering presence.',
             information: "He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
-            links: [{
-                    url: '',
-                    alt: '',
-					imageSrc: ''
-                },
-                {
-                    url: '',
-                    alt: '',
-					imageSrc: ''
-                }
+            links: [
             ],
             images: [{
                     src: 'james_1.jpg',
                     alt: 'James Smiling widely'
-                },
-                {
-                    src: 'image2.jpg',
-                    alt: ''
-                },
-                {
-                    src: 'image3.jpg',
-                    alt: ''
                 }
             ]
         },
@@ -96,16 +67,7 @@ window.onload = function() {
             name: 'Matthew Wharram',
             description: 'Matthew is a caveman who has developed the skill to talk amongst humans.',
             information: "He is our exceptional drummer who keeps the rhythm tight and the energy high. With an innate sense of rhythm and a natural ability to improvise, he brings a dynamic presence to our performances. Whether it's following the structured beats of our songs or creating spontaneous fills on the spot, he never fails to impress. In addition to his drumming prowess, he contributes backing vocals, adding depth and harmony to our sound. As the host of most of our band practices, his house has become the creative hub where we refine our music and strengthen our bond as a band. With his infectious energy and unwavering commitment, he sets the beat that drives us forward, making each rehearsal and performance a memorable one.",
-            links: [{
-                    url: '',
-                    alt: '',
-					imageSrc: ''
-                },
-                {
-                    url: '',
-                    alt: '',
-					imageSrc: ''
-                }
+            links: [
             ],
             images: [{
                     src: 'matthew_1.jpg',
@@ -114,10 +76,6 @@ window.onload = function() {
                 {
                     src: 'matthew_2.jpg',
                     alt: 'Matthew in a hat'
-                },
-                {
-                    src: 'image3.jpg',
-                    alt: ''
                 }
             ]
         },
@@ -144,14 +102,6 @@ window.onload = function() {
             images: [{
                     src: 'cory_1.jpg',
                     alt: "Cory's portait in a dark style"
-                },
-                {
-                    src: 'image2.jpg',
-                    alt: ''
-                },
-                {
-                    src: 'image3.jpg',
-                    alt: ''
                 }
             ]
         },
@@ -177,10 +127,6 @@ window.onload = function() {
                 {
                     src: 'john_2.jpg',
                     alt: 'John vio'
-                },
-                {
-                    src: 'image3.jpg',
-                    alt: ''
                 }
             ]
         },
