@@ -490,6 +490,6 @@ z-index: -1;
 
 @media (max-height: 750px) {
 	.socials-sponsors {
-		height: -10px
+		height: 0
 	}
 }
