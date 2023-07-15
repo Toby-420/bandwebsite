@@ -116,11 +116,32 @@ margin: 30px
 }
 }
 
+@media (max-width: 579px) {
+
 @media (max-width: 721px) {
 	.thumb {
 		display: grid;
 		align-content: center
 	}
+	 .socials-sponsors {
+            position: absolute;
+            bottom: 0;
+            width: 96%;
+            height: 0;
+			margin: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .socials-sponsors p {
+            margin-bottom: 10px;
+        }
+
+        .socials-sponsors a {
+            margin-right: 10px;
+        }
+}
 }
 
 .name-text {
