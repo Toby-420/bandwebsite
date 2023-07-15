@@ -52,7 +52,7 @@ position: relative;
 position: absolute;
 bottom: 0;
 width: 100vw;
-height: 12vh;
+height: 0;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -118,14 +118,14 @@ margin: 30px
 
 @media (max-width: 579px) {
         main {
-            padding-bottom: 100px; /* Space for the socials and sponsors */
+            padding-bottom: 200px; /* Space for the socials and sponsors */
         }
 
         .socials-sponsors {
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 100px;
+            height: 0px;
             display: flex;
             align-items: center;
             justify-content: center;
