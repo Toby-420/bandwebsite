@@ -118,7 +118,7 @@ margin: 30px
 }
 }
 
-@media (max-width: 579px) {
+@media (max-height: 800px) {
         main {
             padding-bottom: 200px; /* Space for the socials and sponsors */
         }
