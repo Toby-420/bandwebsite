@@ -499,4 +499,42 @@ z-index: -1;
   text-align: center;
   margin: 20px;
 }
+.exlargeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+#info, #more-info {
+  text-align: center
+}
+.largeimg {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.mediumimg {
+  width: 300px;
+  margin: 10px;
+}
+.smallimg {
+  width: 200px;
+  text-align: center;
+	margin: 20px
+}
+.otherlittleimg {
+  height: 100px;
+  margin: 10px;
+}
+.littleimg {
+  width: 100px;
+  margin: 5px;
+}
+.tinyimg {
+  width: 50px;
+  margin: 10px;
+}
 }
