@@ -488,7 +488,11 @@ background-color: #000000;
 z-index: -1;
 }
 
-@media (max-height: 750px) {
+@media (max-width: 750px) {
+	.container {
+            min-height: 100%;
+            position: relative;
+	}
 	.socials-sponsors {
 		height: 0
 	}
