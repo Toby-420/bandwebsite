@@ -489,14 +489,14 @@ z-index: -1;
 }
 
 @media (max-width: 750px) {
-	.container {
-            min-height: 100%;
-            position: relative;
-	}
-	.socials-sponsors {
-		height: 0
-	}
+.space.thumb {
+	outline: 3px solid #000;
+	border-radius: 10px;
+	margin: 20px
 }
- hr {
-	 margin: 20px
- }
+.thumb {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+}
