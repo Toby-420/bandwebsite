@@ -348,6 +348,9 @@ img {
         height: 100px;
         margin: 5px
     }
+	.memberimg {
+		margin: 30px
+	}
 
     .side-menu.open:after {
         content: "";

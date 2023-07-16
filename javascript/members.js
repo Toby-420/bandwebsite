@@ -164,7 +164,7 @@ window.onload = function() {
     for (var i = 0; i < personData.links.length; i++) {
       var link = personData.links[i];
       var linkHTML = '<a href="' + link.url + '" target="_blank">';
-      linkHTML += '<img src="images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="preview littleimg">';
+      linkHTML += '<img src="images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="preview littleimg memberimg">';
       linkHTML += '</a>';
       linksHTML += linkHTML;
     }
