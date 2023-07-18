@@ -76,10 +76,6 @@ window.onload = function() {
                 {
                     src: 'matthew_2.jpg',
                     alt: 'Matthew in a hat'
-                },
-                {
-                    src: 'matthew_3.jpg',
-                    alt: 'Matthew gone wild'
                 }
             ]
         },
