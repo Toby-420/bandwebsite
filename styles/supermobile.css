@@ -47,6 +47,9 @@ img {
   width: 300px;
   margin: 10px;
 }
+p > mediumimg {
+	text-align: center;
+}
 .smallimg {
   width: 200px;
   text-align: center;
