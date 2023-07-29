@@ -105,27 +105,6 @@ window.onload = function() {
                 }
             ]
         },
-        'john-d': {
-            name: 'John Dix',
-            description: 'John is our invaluable contact for NKD Music, our generous sponsor and our sound engineer until we get a proper one.',
-            information: "Thanks to his efforts, we have forged a fruitful partnership with the music shop, allowing us to receive top-notch gear and equipment. As our liaison with NKD Music, he goes above and beyond to ensure our band's needs are met. His dedication and strong networking skills have helped secure this vital support, enabling us to enhance our performances and musical capabilities. We are incredibly grateful for his instrumental role in fostering this partnership, which has been pivotal in our journey as a band. His unwavering commitment to our success makes him an indispensable member of our crew, and we are fortunate to have him on our side.",
-            links: [{
-                    url: 'https://www.facebook.com/NKDMusicstore/',
-                    alt: 'NKD Music',
-					imageSrc: 'nkd.jpg'
-                },
-                {
-                    url: 'https://www.instagram.com/john_dix08/',
-                    alt: 'Instagram',
-					imageSrc: 'instagram.png'
-                }
-            ],
-            images: [{
-                    src: 'john_1.jpg',
-                    alt: 'John in a forest'
-                }
-            ]
-        },
         // Add more people here with their respective data
     };
 
