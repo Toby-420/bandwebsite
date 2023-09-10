@@ -2,20 +2,13 @@ window.onload = function() {
     // Extract the parameter value from the URL
     var urlParams = new URLSearchParams(window.location.search);
     var name = urlParams.get('name');
-
     // Define the data for different people
     var peopleData = {
-		
-		
-		// Player information
-		
-		
         'toby-v': {
             name: 'Toby Valentine',
             description: 'Toby is our extraordinary bassist, the backbone of our band.', // can you tell this description was written by chatgpt
-            information: "Our bassist is the unsung hero of our band, crafting intricate bass lines that form the core of our sound. These lines provide depth and resonance, adding a unique character to our music.<br>Beyond the stage, they also play a vital role in managing and improving our gear, ensuring our sound is always at its best. In a world where bass often takes a backseat, our bassist shines as an indispensable part of our band, completing our musical journey.<Br>Experience the enchantment of our bassist's talent at our upcoming shows, where their bass lines will take you on a unique musical journey. Thank you for being part of our musical adventure!",
-            information_2: "Our bassist is the slap of our band, slapping intricate slap lines that slap the core of our slap. These slaps provide slap and slap, adding a slap slap to our slap.<br>Beyond the stage, they also play a slap role in slap and slap our slap, ensuring our slap is always at its slap. In a slap where slap often takes a slap, our bassist slaps as an indispensable slap of our slap, slap our slap slap.<br>Experience the slap of our bassist's slap at our upcoming slap, where their slap will take you on a slap slap. Thank you for being a slap of our slap slap!",
-             links: [{
+            information: "Armed with an Ibanez Soundgear bass and an SX 5-string bass, he effortlessly lays down the foundation of our music. With a keen sense of groove, he infuses our songs, be it original compositions or covers, with an infectious rhythm that moves the audience. His skill on the bass is unparalleled, earning him the admiration of the entire band. In fact, his mastery has led some to jokingly claim that he can play our instruments better than we can. With his impeccable timing and unwavering dedication, he brings the heartbeat to our music, making each performance an unforgettable experience.",
+            links: [{
                     url: 'https://www.github.com/toby-420',
                     alt: 'Github',
 					imageSrc: 'github.png'
@@ -39,8 +32,8 @@ window.onload = function() {
         },
         'jack-w': {
             name: 'Jack Weatherall',
-            description: 'Jack is a our dynamic lead guitarist.',
-            information: "Jack, our lead guitarist, is the heart of our band. With his Les Paul guitar, he creates captivating melodies that range from soaring highs to soulful lows. Jack's guitar solos are pure magic, elevating our music to new heights.<br>But Jack doesn't stop at guitar. He's also a master of backing vocals, adding depth and soul to our sound. His harmonies intertwine seamlessly with our lead vocalist, creating a rich, layered experience.<brIn every performance, Jack injects passion and skill, making him the heartbeat of our sound. Catch him in action at our upcoming gigs and experience the magic for yourself. Stay tuned for more updates and let the music carry you away!",
+            description: 'Jack is a our dynamic lead vocalist and rhythm guitarist. He can do a very good Alex Turner impression.',
+            information: "With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
                     alt: 'Instagram',
@@ -59,8 +52,8 @@ window.onload = function() {
         },
         'james-sm': {
             name: 'James Simpson-Millott',
-            description: 'James is our rhythm guitarist is a remarkable musician, known for his exceptional skills and towering presence.',
-            information: "Our lead singer and rhythm guitarist certainly have a distinctive approach to the band. Their ambition and constant quest for something 'new' are truly something to behold. Their powerful vocals and guitar work, while foundational, often take center stage.<br>Behind the scenes, their hunger for the spotlight is palpable. It's clear that the band isn't the only thing on their mind. They have a knack for utilizing the group to enhance their own performance, which is quite the skill.<br>While we appreciate their contributions to the band, it's interesting to see how their solo ventures will unfold. We can't help but wonder how that will work out for them. Stay tuned for updates as we navigate the delicate balance between collective creativity and individual aspirations.",
+            description: 'James is our lead guitarist is a remarkable musician, known for his exceptional skills and towering presence.',
+            information: "He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
             links: [
             ],
             images: [{
@@ -85,13 +78,6 @@ window.onload = function() {
                 }
             ]
         },
-		
-		
-		
-		// Crew info
-		
-		
-		
         'cory-s': {
             name: 'Cory Shepherd',
             description: 'Cory is our first roadie.',
@@ -106,6 +92,11 @@ window.onload = function() {
                     alt: 'Youtube',
 					imageSrc: 'youtube.png'
                 }
+                // {
+                    // url: 'https://smeghead.netlify.app',
+                    // alt: 'Youtube',
+					// imageSrc: 'youtube.png'
+                // }
             ],
             images: [{
                     src: 'cory_1.jpg',
@@ -113,19 +104,17 @@ window.onload = function() {
                 }
             ]
         },
+        // Add more people here with their respective data
     };
-
+  // Find the person's data based on the parameter value
   var personData = peopleData[name];
-
+  // Update the page content with the person's data
   var nameElement = document.getElementById('name');
   nameElement.innerHTML = personData ? personData.name : 'Unknown';
-
   var infoElement = document.getElementById('info');
   infoElement.innerHTML = personData ? personData.description : 'No description available.';
-
   var moreInfoElement = document.getElementById('more-info');
   moreInfoElement.innerHTML = personData ? personData.information : 'No information available.';
-
   var imagesElement = document.getElementById('images');
   if (personData && personData.images.length > 0) {
     var imagesHTML = '';
@@ -137,7 +126,6 @@ window.onload = function() {
   } else {
     imagesElement.innerHTML = 'No images available.';
   }
-
   var linksElement = document.getElementById('links');
   if (personData && personData.links.length > 0) {
     var linksHTML = '';
