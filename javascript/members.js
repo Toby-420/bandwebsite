@@ -6,16 +6,16 @@ window.onload = function() {
     var peopleData = {
         'toby-v': {
             name: 'Toby Valentine',
-            description: 'Toby is our extraordinary bassist, the backbone of our band.', // can you tell this description was written by chatgpt
+            description: 'Toby is our extraordinary bassist, the backbone of our band.', // can you tell these descriptions were written by chatgpt
             information: "Armed with an Ibanez Soundgear bass and an SX 5-string bass, he effortlessly lays down the foundation of our music. With a keen sense of groove, he infuses our songs, be it original compositions or covers, with an infectious rhythm that moves the audience. His skill on the bass is unparalleled, earning him the admiration of the entire band. In fact, his mastery has led some to jokingly claim that he can play our instruments better than we can. With his impeccable timing and unwavering dedication, he brings the heartbeat to our music, making each performance an unforgettable experience.",
             links: [{
                     url: 'https://www.github.com/toby-420',
-                    alt: 'Github',
+                    alt: "Toby's Github",
 					imageSrc: 'github.png'
                 },
                 {
                     url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
-                    alt: 'YouTube',
+                    alt: "Toby's YouTube",
 					imageSrc: 'youtube.png'
                 },
                 {
@@ -36,7 +36,7 @@ window.onload = function() {
             information: "With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
-                    alt: 'Instagram',
+                    alt: "Jack's Instagram",
 					imageSrc: 'instagram.png'
                 }
             ],
@@ -54,10 +54,18 @@ window.onload = function() {
             name: 'James Simpson-Millott',
             description: 'James is our lead guitarist is a remarkable musician, known for his exceptional skills and towering presence.',
             information: "He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
-            links: [
+            links: [{
+                    url: 'https://www.instagram.com/james.brooks23/',
+                    alt: "James' Instagram",
+					imageSrc: 'instagram.png'
+                }
             ],
             images: [{
                     src: 'james_1.jpg',
+                    alt: 'James with a primal scream shirt'
+                },
+				{
+                    src: 'james_2.jpg',
                     alt: 'James Smiling widely'
                 }
             ]
@@ -84,19 +92,14 @@ window.onload = function() {
             information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
             links: [{
                     url: 'https://github.com/SicariusAtlas',
-                    alt: 'Github',
+                    alt: "Cory's Github",
 					imageSrc: 'github.png'
                 },
                 {
                     url: 'https://www.youtube.com/@sicariusatlas/',
-                    alt: 'Youtube',
+                    alt: "Toby's Youtube",
 					imageSrc: 'youtube.png'
                 }
-                // {
-                    // url: 'https://smeghead.netlify.app',
-                    // alt: 'Youtube',
-					// imageSrc: 'youtube.png'
-                // }
             ],
             images: [{
                     src: 'cory_1.jpg',
