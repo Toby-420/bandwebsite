@@ -7,7 +7,6 @@
     src: url(../fonts/GothamSSm-Book_Web.woff2) format("woff2");
 }
 
-/* Common styles for multiple elements */
 .thumb, h1, h2 {
     text-align: center;
 }
@@ -136,7 +135,7 @@ img {
 
 .grid-container, .grid-container-home {
     display: grid;
-    grid-template-columns: 59% 40%;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(3, 100px);
     grid-gap: 10px;
 }
@@ -236,10 +235,6 @@ img {
     }
 }
 @media (max-width: 579px) {
-    /* Styles specific to max-width 579px */
-
-    /* @charset and @font-face removed, as they are not necessary to repeat */
-    /* Common styles for multiple elements */
     a, h1, h2, h3, li, p {
         color: #b3c808;
         font-family: GothamZZ, sans-serif;

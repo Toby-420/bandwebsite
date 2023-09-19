@@ -6,7 +6,7 @@ window.onload = function() {
     var peopleData = {
         'toby-v': {
             name: 'Toby Valentine',
-            description: 'Toby is our extraordinary bassist, the backbone of our band.', // can you tell these descriptions were written by chatgpt
+            description: 'Toby is our extraordinary bassist, the backbone of our band.',
             information: "Armed with an Ibanez Soundgear bass and an SX 5-string bass, he effortlessly lays down the foundation of our music. With a keen sense of groove, he infuses our songs, be it original compositions or covers, with an infectious rhythm that moves the audience. His skill on the bass is unparalleled, earning him the admiration of the entire band. In fact, his mastery has led some to jokingly claim that he can play our instruments better than we can. With his impeccable timing and unwavering dedication, he brings the heartbeat to our music, making each performance an unforgettable experience.",
             links: [{
                     url: 'https://www.github.com/toby-420',
@@ -32,7 +32,7 @@ window.onload = function() {
         },
         'jack-w': {
             name: 'Jack Weatherall',
-            description: 'Jack is a our dynamic lead vocalist and rhythm guitarist. He can do a very good Alex Turner impression.',
+            description: 'Jack is our lead vocalist and rhythm guitarist',
             information: "With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
@@ -52,7 +52,7 @@ window.onload = function() {
         },
         'james-sm': {
             name: 'James Simpson-Millott',
-            description: 'James is our lead guitarist is a remarkable musician, known for his exceptional skills and towering presence.',
+            description: 'James is our Lead guitarist who also sings sometimes',
             information: "He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
             links: [{
                     url: 'https://www.instagram.com/james.brooks23/',
@@ -67,6 +67,14 @@ window.onload = function() {
 				{
                     src: 'james_2.jpg',
                     alt: 'James Smiling widely'
+                },
+				{
+                    src: 'james_3.jpg',
+                    alt: 'James playing guitar'
+                },
+				{
+                    src: 'james_4.jpg',
+                    alt: 'James with his hands on his head'
                 }
             ]
         },
@@ -83,12 +91,20 @@ window.onload = function() {
                 {
                     src: 'matthew_2.jpg',
                     alt: 'Matthew in a hat'
+                },
+                {
+                    src: 'matthew_3.jpg',
+                    alt: 'Matthew gone wild' // ;)
+                },
+                {
+                    src: 'matthew_4.jpg',
+                    alt: 'Matthew screaming'
                 }
             ]
         },
         'cory-s': {
             name: 'Cory Shepherd',
-            description: 'Cory is our first roadie.',
+            description: 'Cory is Cory.',
             information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
             links: [{
                     url: 'https://github.com/SicariusAtlas',
@@ -97,21 +113,22 @@ window.onload = function() {
                 },
                 {
                     url: 'https://www.youtube.com/@sicariusatlas/',
-                    alt: "Toby's Youtube",
+                    alt: "Cory's Youtube",
 					imageSrc: 'youtube.png'
                 }
             ],
             images: [{
                     src: 'cory_1.jpg',
                     alt: "Cory's portait in a dark style"
+                },
+				{
+                    src: 'cory_2.jpg',
+                    alt: "Cory swearing at the camera"
                 }
             ]
         },
-        // Add more people here with their respective data
     };
-  // Find the person's data based on the parameter value
   var personData = peopleData[name];
-  // Update the page content with the person's data
   var nameElement = document.getElementById('name');
   nameElement.innerHTML = personData ? personData.name : 'Unknown';
   var infoElement = document.getElementById('info');
@@ -123,7 +140,10 @@ window.onload = function() {
     var imagesHTML = '';
     for (var i = 0; i < personData.images.length; i++) {
       var image = personData.images[i];
-      imagesHTML += '<img src="images/members/' + image.src + '" alt="' + image.alt + '" class="preview mediumimg">';
+      var imageHTML = '<div class="thumb">';
+      imageHTML += '<img src="images/members/' + image.src + '" alt="' + image.alt + '" class="preview mediumimg">';
+      imageHTML += '</div>';
+      imagesHTML += imageHTML;
     }
     imagesElement.innerHTML = imagesHTML;
   } else {
