@@ -25,7 +25,7 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'toby_1.jpg',
+                    src: 'toby_1.webp',
                     alt: 'Toby next to an electric drum kit and railway sign'
                 }
             ]
@@ -41,11 +41,11 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'jack_1.jpg',
+                    src: 'jack_1.webp',
                     alt: 'Jack Weatherall in a mirror'
                 },
                 {
-                    src: 'jack_2.jpg',
+                    src: 'jack_2.webp',
                     alt: 'Jack performing at Brodstock 2023'
                 }
             ]
@@ -61,19 +61,19 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'james_1.jpg',
+                    src: 'james_1.webp',
                     alt: 'James with a primal scream shirt'
                 },
 				{
-                    src: 'james_2.jpg',
+                    src: 'james_2.webp',
                     alt: 'James Smiling widely'
                 },
 				{
-                    src: 'james_3.jpg',
+                    src: 'james_3.webp',
                     alt: 'James playing guitar'
                 },
 				{
-                    src: 'james_4.jpg',
+                    src: 'james_4.webp',
                     alt: 'James with his hands on his head'
                 }
             ]
@@ -85,19 +85,19 @@ window.onload = function() {
             links: [
             ],
             images: [{
-                    src: 'matthew_1.jpg',
+                    src: 'matthew_1.webp',
                     alt: 'Roadman matthew'
                 },
                 {
-                    src: 'matthew_2.jpg',
+                    src: 'matthew_2.webp',
                     alt: 'Matthew in a hat'
                 },
                 {
-                    src: 'matthew_3.jpg',
+                    src: 'matthew_3.webp',
                     alt: 'Matthew gone wild' // ;)
                 },
                 {
-                    src: 'matthew_4.jpg',
+                    src: 'matthew_4.webp',
                     alt: 'Matthew screaming'
                 }
             ]
@@ -118,11 +118,11 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'cory_1.jpg',
+                    src: 'cory_1.webp',
                     alt: "Cory's portait in a dark style"
                 },
 				{
-                    src: 'cory_2.jpg',
+                    src: 'cory_2.webp',
                     alt: "Cory swearing at the camera"
                 }
             ]

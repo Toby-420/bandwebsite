@@ -2,3 +2,4 @@
 
 User-agent: *
 Disallow: /images/*
+x-robots-tag: index
