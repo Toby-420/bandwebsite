@@ -11,6 +11,16 @@
     text-align: center;
 }
 
+
+.centered-list {
+  text-align: center; /* Center the text within the container */
+}
+
+.centered-list ul {
+  list-style: none; /* Remove default list bullets */
+  padding: 0; /* Remove default list padding */
+}
+
 a, h1, h2, h3, li, p {
     color: #b3c808;
     font-family: GothamZZ, sans-serif;

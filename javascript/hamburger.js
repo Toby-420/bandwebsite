@@ -1,27 +1,40 @@
 function toggleSideMenu() {
   var sideMenu = document.getElementById("sideMenu");
-  var sideMenuItems = sideMenu.getElementsByTagName("li");
+  var isOpen = sideMenu.classList.contains("open");
 
-  if (sideMenu.classList.contains("open")) {
-    for (var i = 0; i < sideMenuItems.length; i++) {
-      sideMenuItems[i].style.transitionDelay = "";
-    }
+  // Define the HTML content you want to insert
+  var htmlContent = `
+    <ul>
+      <li><a href="index">Home</a></li>
+      <li><a href="members" target="_self">Meet the members</a></li>
+      <li><a href="booking" target="_self">Book us / Events</a></li>
+      <li><a href="jobs" target="_self">Get hired / Jobs</a></li>
+      <li><a href="gallery" target="_self">Gallery</a></li>
+      <li><a href="donations" target="_self">Donations</a></li>
+      <li><a href="wishlist" target="_self">Wishlist</a></li>
+      <li><a href="inclusivity" target="_self">Inclusivity</a></li>
+      <li><a href="LICENSE" target="_self">License</a></li>
+    </ul>
+  `;
+
+  if (isOpen) {
+    // If the side menu is open, remove open class and animate the items out
     sideMenu.classList.remove("open");
 
-    // Delay setting display: none; until after the closing animation
-    setTimeout(function() {
-      sideMenu.style.display = "none";
+    // Delay setting the innerHTML until after the closing animation
+    setTimeout(function () {
+      sideMenu.innerHTML = htmlContent;
     }, 300); // Adjust the delay time (in milliseconds) to match your animation duration
   } else {
-    // Set display: block; before adding the open class
-    sideMenu.style.display = "grid";
+    // If the side menu is closed, set innerHTML first, then add the open class and animate the items in
+    sideMenu.innerHTML = htmlContent;
 
-    // Delay adding the open class until after the display property is set
-    setTimeout(function() {
+    // Delay adding the open class until after the innerHTML is set
+    setTimeout(function () {
       sideMenu.classList.add("open");
-      for (var i = 0; i < sideMenuItems.length; i++) {
-        sideMenuItems[i].style.transitionDelay = (i * 20) + "ms";
+      for (var i = 0; i < sideMenu.children.length; i++) {
+        sideMenu.children[i].style.transitionDelay = i * 20 + "ms";
       }
-    }, 0); // Delay of 0 milliseconds to ensure the display property is set first
+    }, 0); // Delay of 0 milliseconds to ensure the innerHTML is set first
   }
 }
