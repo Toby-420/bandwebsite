@@ -10,7 +10,7 @@ function toggleSideMenu() {
       <li><a href="booking" target="_self">Book us / Events</a></li>
       <li><a href="jobs" target="_self">Get hired / Jobs</a></li>
       <li><a href="gallery" target="_self">Gallery</a></li>
-      <li><a href="donations" target="_self">Donations</a></li>
+      <li><a href="tabs" target="_self">Tabs</a></li>
       <li><a href="wishlist" target="_self">Wishlist</a></li>
       <li><a href="inclusivity" target="_self">Inclusivity</a></li>
       <li><a href="LICENSE" target="_self">License</a></li>
