@@ -66,14 +66,10 @@ window.onload = function() {
                 },
 				{
                     src: 'james_2.webp',
-                    alt: 'James Smiling widely'
-                },
-				{
-                    src: 'james_3.webp',
                     alt: 'James playing guitar'
                 },
 				{
-                    src: 'james_4.webp',
+                    src: 'james_3.webp',
                     alt: 'James with his hands on his head'
                 }
             ]
@@ -125,6 +121,22 @@ window.onload = function() {
                     src: 'cory_2.webp',
                     alt: "Cory swearing at the camera"
                 }
+            ]
+        },
+        'jax-i': {
+            name: 'Jax Ingham',
+            description: 'Jax is our photographer.',
+            information: "Jax is the beating heart behind the scenes, our band's roadie and visionary photographer. His relentless dedication ensures seamless performances while his lens captures the raw energy and emotion of our musical voyage. From stage setups to candid moments, Jax crafts visual tales that resonate, shaping our band's identity and leaving an enduring impact on our journey.",
+            links: [{
+                    url: 'https://www.instagram.com/pvnk._.frogs/',
+                    alt: "Jax's Instagram",
+					imageSrc: 'instagram.png'
+                },
+            ],
+            images: [{
+                    src: 'jax_1.webp',
+                    alt: "Jax standing under a shelter"
+                },
             ]
         },
     };
