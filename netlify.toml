@@ -17,6 +17,11 @@
   to = "https://www.instagram.com/rruby.i/"
   status = 301
 
+[[redirects]]
+  from = "/rage"
+  to = "https://ratm.com"
+  status = 301
+
 
 # Custom link shortening / changing (Business)
 
