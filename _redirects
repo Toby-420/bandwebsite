@@ -1,6 +1,12 @@
 /hiring                /booking
 
-# Custom link shortening / changing
+# Custom link shortening / changing (Personal)
+
+/link				   /link
+/link/ruby			   https://www.instagram.com/rruby.i/
+
+# Custom link shortening / changing (Business)
 
 /link/aatm		 	   http://www.aatm.org.uk/
-/link/ruby			   https://www.instagram.com/rruby.i/
+
+# Custom link shortening / changing (Other)
