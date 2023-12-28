@@ -1,4 +1,28 @@
+# Necessary redirects
+
 [[redirects]]
-  from = "/test"
-  to = "link"
+  from = "/hiring"
+  to = "/booking"
   status = 301
+
+# Custom link shortening / changing (Personal)
+
+[[redirects]]
+  from = "/link"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/link/ruby"
+  to = "https://www.instagram.com/rruby.i/"
+  status = 301
+
+
+# Custom link shortening / changing (Business)
+
+[[redirects]]
+  from = "/link/aatm"
+  to = "http://www.aatm.org.uk/"
+  status = 301
+
+# Custom link shortening / changing (Other)

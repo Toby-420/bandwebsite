@@ -1,12 +1,3 @@
-/hiring                /booking
+# Redirect any users from Antarctica to the special version
 
-# Custom link shortening / changing (Personal)
-
-/link/				   /
-/link/ruby			   https://www.instagram.com/rruby.i/
-
-# Custom link shortening / changing (Business)
-
-/link/aatm		 	   http://www.aatm.org.uk/
-
-# Custom link shortening / changing (Other)
+/ /?james 302 Country=aq
