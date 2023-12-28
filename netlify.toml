@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/test"
+  to = "link"
+  status = 301
