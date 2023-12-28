@@ -25,7 +25,7 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'toby_1.webp',
+                    src: 'toby_1_thumb.webp',
                     alt: 'Toby next to an electric drum kit and railway sign'
                 }
             ]
@@ -41,11 +41,11 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'jack_1.webp',
+                    src: 'jack_1_thumb.webp',
                     alt: 'Jack Weatherall in a mirror'
                 },
                 {
-                    src: 'jack_2.webp',
+                    src: 'jack_2_thumb.webp',
                     alt: 'Jack performing at Brodstock 2023'
                 }
             ]
@@ -61,16 +61,8 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'james_1.webp',
+                    src: 'james_1_thumb.webp',
                     alt: 'James with a primal scream shirt'
-                },
-				{
-                    src: 'james_2.webp',
-                    alt: 'James playing guitar'
-                },
-				{
-                    src: 'james_3.webp',
-                    alt: 'James with his hands on his head'
                 }
             ]
         },
@@ -85,16 +77,8 @@ window.onload = function() {
                     alt: 'Roadman matthew'
                 },
                 {
-                    src: 'matthew_2.webp',
+                    src: 'matthew_2_thumb.webp',
                     alt: 'Matthew in a hat'
-                },
-                {
-                    src: 'matthew_3.webp',
-                    alt: 'Matthew gone wild' // ;)
-                },
-                {
-                    src: 'matthew_4.webp',
-                    alt: 'Matthew screaming'
                 }
             ]
         },
@@ -114,12 +98,8 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'cory_1.webp',
+                    src: 'cory_1_thumb.webp',
                     alt: "Cory's portait in a dark style"
-                },
-				{
-                    src: 'cory_2.webp',
-                    alt: "Cory swearing at the camera"
                 }
             ]
         },
@@ -134,7 +114,7 @@ window.onload = function() {
                 },
             ],
             images: [{
-                    src: 'jax_1.webp',
+                    src: 'jax_1_thumb.webp',
                     alt: "Jax standing under a shelter"
                 },
             ]
