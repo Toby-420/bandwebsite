@@ -42,10 +42,6 @@ window.onload = function() {
             ],
             images: [{
                     src: 'jack_1_thumb.webp',
-                    alt: 'Jack Weatherall in a mirror'
-                },
-                {
-                    src: 'jack_2_thumb.webp',
                     alt: 'Jack performing at Brodstock 2023'
                 }
             ]
@@ -74,11 +70,7 @@ window.onload = function() {
             ],
             images: [{
                     src: 'matthew_1.webp',
-                    alt: 'Roadman matthew'
-                },
-                {
-                    src: 'matthew_2_thumb.webp',
-                    alt: 'Matthew in a hat'
+                    alt: 'Caveman matthew'
                 }
             ]
         },
