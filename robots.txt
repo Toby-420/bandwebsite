@@ -4,4 +4,4 @@ User-agent: *
 Disallow: /images/*
 Disallow: /javascript/*
 Disallow: /fonts/*
-Disallow: 404.htm
+Disallow: /404.htm
