@@ -61,7 +61,7 @@ window.onload = function() {
                     alt: 'James with a primal scream shirt'
                 },
                 {
-                    url: 'james_2_thumb.webp',
+                    src: 'james_2_thumb.webp',
                     alt: "The correct political stance"
                 }
             ]
