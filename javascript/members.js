@@ -11,12 +11,12 @@ window.onload = function() {
             links: [{
                     url: 'https://www.github.com/toby-420',
                     alt: "Toby's Github",
-					imageSrc: 'github.png'
+					imageSrc: 'github.webp'
                 },
                 {
                     url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
                     alt: "Toby's YouTube",
-					imageSrc: 'youtube.png'
+					imageSrc: 'youtube.webp'
                 },
                 {
                     url: 'https://tobyvalentine.netlify.app',
@@ -37,7 +37,7 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
                     alt: "Jack's Instagram",
-					imageSrc: 'instagram.png'
+					imageSrc: 'instagram.webp'
                 }
             ],
             images: [{
@@ -53,12 +53,16 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/james.brooks23/',
                     alt: "James' Instagram",
-					imageSrc: 'instagram.png'
+					imageSrc: 'instagram.webp'
                 }
             ],
             images: [{
                     src: 'james_1_thumb.webp',
                     alt: 'James with a primal scream shirt'
+                },
+                {
+                    url: 'james_2_thumb.webp',
+                    alt: "The correct political stance"
                 }
             ]
         },
@@ -81,12 +85,12 @@ window.onload = function() {
             links: [{
                     url: 'https://github.com/SicariusAtlas',
                     alt: "Cory's Github",
-					imageSrc: 'github.png'
+					imageSrc: 'github.webp'
                 },
                 {
                     url: 'https://www.youtube.com/@sicariusatlas/',
                     alt: "Cory's Youtube",
-					imageSrc: 'youtube.png'
+					imageSrc: 'youtube.webp'
                 }
             ],
             images: [{
@@ -102,7 +106,7 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/pvnk._.frogs/',
                     alt: "Jax's Instagram",
-					imageSrc: 'instagram.png'
+					imageSrc: 'instagram.webp'
                 },
             ],
             images: [{
