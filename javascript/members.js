@@ -41,7 +41,7 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'jack_1_thumb.webp',
+                    src: 'jack_1.webp',
                     alt: 'Jack performing at Brodstock 2023'
                 }
             ]
