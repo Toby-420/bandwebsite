@@ -43,4 +43,14 @@ function updateThemePreference(theme) {
 
 function applyTheme(theme) {
   document.getElementById("css_standard").setAttribute("href", theme);
+
+  const svgContainer1 = document.getElementById("jobs");
+  const svgContainer2 = document.getElementById("hiring");
+  if (theme === "styles/light.css") {
+    svgContainer1.innerHTML = `<img class="svg preview littleimg space" src="images/icons/light-hired.svg" alt="Application form (For getting hired)">`;
+    svgContainer2.innerHTML = `<img class="svg preview littleimg space" src="images/icons/light-calendar.svg" alt="Calendar Icon (For booking)">`;
+  } else {
+    svgContainer1.innerHTML = `<img class="svg preview littleimg space" src="images/icons/dark-hired.svg" alt="Application form (For getting hired)">>`;
+    svgContainer2.innerHTML = `<img class="svg preview littleimg space" src="images/icons/dark-calendar.svg" alt="Calendar Icon (For booking)">">>`;
+  }
 }
