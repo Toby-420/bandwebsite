@@ -1,11 +1,11 @@
-# Necessary redirects
+# Necessary redirects -----------------------------------------------------------------------------------------
 
 [[redirects]]
   from = "/hiring"
   to = "/booking"
   status = 301
 
-# Custom link shortening / changing (Personal)
+# Custom link shortening / changing (Personal)-----------------------------------------------------------------
 
 [[redirects]]
   from = "/link"
@@ -20,7 +20,15 @@
 [[redirects]]
   from = "/link/icons"
   to = "/404"
+  status = 404
+# Custom link shortening / changing (Business)-----------------------------------------------------------------
+
+[[redirects]]
+  from = "/link/aatm"
+  to = "http://www.aatm.org.uk/"
   status = 301
+
+# Custom link shortening / changing (Other)--------------------------------------------------------------------
 
 [[redirects]]
   from = "/link/icons/main"
@@ -31,12 +39,3 @@
   from = "/link/icons/mini"
   to = "https://www.youtube.com/watch?v=krDxhnaKD7Q"
   status = 301
-
-# Custom link shortening / changing (Business)
-
-[[redirects]]
-  from = "/link/aatm"
-  to = "http://www.aatm.org.uk/"
-  status = 301
-
-# Custom link shortening / changing (Other)
