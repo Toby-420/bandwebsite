@@ -2,6 +2,9 @@
 let cookiesAccepted = false;
 let themePreference = localStorage.getItem("themePreference");
 let currentTheme = themePreference || "styles/light.css";
+  
+const hiringSVGContainer = document.getElementById("hiringSVG");
+const jobsSVGContainer = document.getElementById("jobsSVG");
 
 if (themePreference != null) {
 	cookiesAccepted = true;
@@ -46,9 +49,6 @@ function updateThemePreference(theme) {
 
 function applyTheme(theme) {
   document.getElementById("css_standard").setAttribute("href", theme);
-  
-  const hiringSVGContainer = document.getElementById("hiringSVG");
-  const jobsSVGContainer = document.getElementById("jobsSVG");
   
   if (currentTheme === "styles/light.css") {
 	  hiringSVGContainer.innerHTML = `<img class="svg preview littleimg space" src="images/icons/light-calendar.svg" alt="Calendar Icon (For booking)">`;
