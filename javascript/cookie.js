@@ -8,6 +8,9 @@ const jobsSVGContainer = document.getElementById("jobsSVG");
 
 if (themePreference != null) {
 	cookiesAccepted = true;
+	applyTheme(currentTheme);
+} else {
+	applyTheme("styles/light.css");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
