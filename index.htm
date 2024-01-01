@@ -3,117 +3,112 @@
 <html lang="en-GB">
 
 <head>
-    <title>Deep Sea Lemons</title>
+	<title>Deep Sea Lemons</title>
 
-    <link rel="stylesheet" type="text/css" href="styles/standard.css" title="default" id="css_standard">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="canonical" href="https://deepsealemons.co.uk/">
+	<link rel="stylesheet" type="text/css" href="styles/dark.css" title="default" id="css_standard">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="canonical" href="https://deepsealemons.co.uk/">
 
-    <!-- God I hate you, Apple -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.webp">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple/152.webp">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple/120.webp">
+	<!-- God I hate you, Apple -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple/180.webp">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/apple/152.webp">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/apple/120.webp">
 
-    <script src="javascript/hamburger.js" async></script>
+	<script src="javascript/hamburger.js" async></script>
+	<script src="javascript/cookie.js" async></script>
 
-    <meta charset="UTF-8">
-    <meta name="rating" content="general">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1 , viewport-fit=auto">
-    <meta name="description" content="Deep Sea Lemons Official Website">
-    <meta name="keywords" content="deep sea lemons, band, hiring, rock, bass">
-    <meta name="author" content="Toby Valentine, Jack Weatherall">
-    <meta name="revisit-after" content="2 days">
-    <meta name="darkreader-lock" content="true">
+	<meta charset="UTF-8">
+	<meta name="rating" content="general">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1 , viewport-fit=auto">
+	<meta name="description" content="Deep Sea Lemons Official Website">
+	<meta name="keywords" content="deep sea lemons, band, hiring, rock, bass">
+	<meta name="author" content="Toby Valentine">
+	<meta name="revisit-after" content="2 days">
+	<meta name="darkreader-lock" content="true">
 </head>
 
 <body>
 	<script>
 	if (window.location.href.endsWith('?james')) {
-	  document.body.style.backgroundImage = `url('images/members/james_4.webp')`;
+		document.body.style.backgroundImage = `url('images/members/james_2.webp')`;
 	}
 	</script>
 
-    <header>
-        <h1>Deep Sea Lemons</h1>
-        <button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
-	<span class="hamburger-box" role="presentation">
-	<span class="hamburger-inner" role="presentation">&#9776;</span>
-	</span>
-	</button>
+	<header>
+		<h1>Deep Sea Lemons</h1>
+		<button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
+		<span class="hamburger-box" role="presentation">
+		<span class="hamburger-inner" role="presentation">&#9776;</span>
+		</span>
+		</button>
 
-        <div class="side-menu" id="sideMenu">
-            <ul>
-                <li><a href="index">Home</a></li>
-                <li><a href="members" target="_self">Meet the members</a></li>
-                <li><a href="booking" target="_self">Book us / Events</a></li>
-                <li><a href="jobs" target="_self">Get hired / Jobs</a></li>
-                <li><a href="gallery" target="_self">Gallery</a></li>
-                <li><a href="donations" target="_self">Donations</a></li>
-                <li><a href="wishlist" target="_self">Wishlist</a></li>
-                <li><a href="inclusivity" target="_self">Inclusivity</a></li>
-                <li><a href="LICENSE" target="_self">License</a></li>
-            </ul>
-        </div>
-    </header>
+		<div class="side-menu" id="sideMenu">
+		</div>
+	</header>
 
-    <main>
-        <p class="center">A rock and metal band based in West Yorkshire, England</p>
+	<main>
+		<p class="center">A rock and metal band based in West Yorkshire, England</p>
 				
 		<div class="center">
 			<div class="thumb space">
-				<p>Meet the members</p>
-					<a href="members" target="_self">
+				<a href="members" target="_self">
+					<p>Meet the members</p>
 						<img src="images/members/bandphoto_1_thumb.webp" alt="Members of the band" class="preview space otherlittleimg">
 					</a>
 			</div>
 			<div class="thumb space">
-				<p>Book us / Events</p>
-					<a href="hiring" target="_self">
-						<img src="images/icons/calendar.webp" alt="Book us" class="preview littleimg space">
+				<a href="hiring" target="_self">
+					<p>Book us / Events</p>
+						<img class="svg preview littleimg space" src="images/icons/calendar.svg" alt="Calendar Icon (For booking)">
 					</a>
 			</div>
 			<div class="thumb space">
-				<p>Get hired / Jobs</p>
-					<a href="jobs" target="_self">
-						<img src="images/icons/hired.webp" alt="Get hired" class="preview littleimg space">
+				<a href="jobs" target="_self">
+					<p>Get hired / Jobs</p>
+						<img class="svg preview littleimg space" src="images/icons/hired.svg" alt="Application form (For getting hired)">
 					</a>
 			</div>
 		</div>
-
 		
-        <div class="socials-sponsors" >
-            <div>
-                <hr>
+		<div id="cookie-consent" style = "display: none">
+			<p>This website uses local storage to store the theme used</p>
+				<button class="theme green" onclick="acceptCookie()">Accept</button>
+				<button class="theme red"	  onclick="rejectCookie(currentTheme)">Reject</button>
+		</div>
+		
+		<div class="socials-sponsors" >
+			<div>
+				<hr>
 
-                <a href="https://twitter.com/DeepSeaLemons/" target="_blank" class="preview">
-                    <img src="images/icons/twitter.webp" alt="Our twitter" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="https://www.instagram.com/deep_sea_lemons/" target="_blank" class="preview">
-                    <img src="images/icons/instagram.webp" alt="Our instagram" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="https://www.facebook.com/people/Deep-Sea-Lemons/61550058405169/" target="_blank" class="preview">
-                    <img src="images/icons/facebook.webp" alt="Our Facebook" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="https://open.spotify.com/playlist/0jVHl0dHDUu3RHWlzTmyru" target="_blank" class="preview">
-                    <img src="images/icons/spotify.webp" alt="Our spotify" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="https://www.youtube.com/channel/UC7NV-fiSPrxeUjkearaubpg" target="_blank" class="preview">
-                    <img src="images/icons/youtube.webp" alt="Our youtube" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="https://www.linktr.ee/deepsealemons" target="_blank" class="preview">
-                    <img src="images/icons/linktree.webp" alt="Our linktree" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="https://www.tiktok.com/@deepsealemonsofficial" target="_blank" class="preview">
-                    <img src="images/icons/tiktok.webp" alt="Our tiktok" class="preview tinyimg frontpageicon">
-                </a>
-                <a href="mailto://deepsealemonsofficial@gmail.com" target="_blank" class="preview">
-                    <img src="images/icons/email.webp" alt="Our email" class="preview tinyimg frontpageicon">
-                </a>
-            </div>
-        </div>
+				<a href="https://twitter.com/DeepSeaLemons/" target="_blank" class="preview">
+					<img src="images/icons/twitter.webp" alt="Our twitter" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="https://www.instagram.com/deep_sea_lemons/" target="_blank" class="preview">
+					<img src="images/icons/instagram.webp" alt="Our instagram" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="https://www.facebook.com/people/Deep-Sea-Lemons/61550058405169/" target="_blank" class="preview">
+					<img src="images/icons/facebook.webp" alt="Our Facebook" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="https://open.spotify.com/playlist/0jVHl0dHDUu3RHWlzTmyru" target="_blank" class="preview">
+					<img src="images/icons/spotify.webp" alt="Our spotify" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="https://www.youtube.com/channel/UC7NV-fiSPrxeUjkearaubpg" target="_blank" class="preview">
+					<img src="images/icons/youtube.webp" alt="Our youtube" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="https://www.linktr.ee/deepsealemons" target="_blank" class="preview">
+					<img src="images/icons/linktree.webp" alt="Our linktree" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="https://www.tiktok.com/@deepsealemonsofficial" target="_blank" class="preview">
+					<img src="images/icons/tiktok.webp" alt="Our tiktok" class="preview tinyimg frontpageicon">
+				</a>
+				<a href="mailto://deepsealemonsofficial@gmail.com" target="_blank" class="preview">
+					<img src="images/icons/email.webp" alt="Our email" class="preview tinyimg frontpageicon">
+				</a>
+			</div>
+		</div>
 
-        <br>
-    </main>
+		<br>
+	</main>
 
 </body>
 

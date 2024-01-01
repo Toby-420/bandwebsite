@@ -4,7 +4,7 @@ window.onload = function() {
     var name = urlParams.get('name');
     // Define the data for different people
     var peopleData = {
-        'toby-v': {
+        'toby': {
             name: 'Toby Valentine',
             description: 'Toby is our extraordinary bassist, the backbone of our band.',
             information: "Armed with an Ibanez Soundgear bass and an SX 5-string bass, he effortlessly lays down the foundation of our music. With a keen sense of groove, he infuses our songs, be it original compositions or covers, with an infectious rhythm that moves the audience. His skill on the bass is unparalleled, earning him the admiration of the entire band. In fact, his mastery has led some to jokingly claim that he can play our instruments better than we can. With his impeccable timing and unwavering dedication, he brings the heartbeat to our music, making each performance an unforgettable experience.",
@@ -30,7 +30,7 @@ window.onload = function() {
                 }
             ]
         },
-        'jack-w': {
+        'jack': {
             name: 'Jack Weatherall',
             description: 'Jack is our lead vocalist and rhythm guitarist',
             information: "With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
@@ -46,27 +46,27 @@ window.onload = function() {
                 }
             ]
         },
-        'james-sm': {
-            name: 'James Simpson-Millott',
-            description: 'James is our Lead guitarist who also sings sometimes',
+        'jim': {
+            name: 'Jim Simpson-Millott',
+            description: 'Jim is our Lead guitarist who also sings sometimes',
             information: "He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
             links: [{
                     url: 'https://www.instagram.com/james.brooks23/',
-                    alt: "James' Instagram",
+                    alt: "Jim's Instagram",
 					imageSrc: 'instagram.webp'
                 }
             ],
             images: [{
-                    src: 'james_1_thumb.webp',
-                    alt: 'James with a primal scream shirt'
+                    src: 'jim_1_thumb.webp',
+                    alt: 'Jim with a primal scream shirt'
                 },
                 {
-                    src: 'james_2_thumb.webp',
+                    src: 'jim_2_thumb.webp',
                     alt: "The correct political stance"
                 }
             ]
         },
-        'matthew-w': {
+        'matthew': {
             name: 'Matthew Wharram',
             description: 'Matthew is a caveman who has developed the skill to talk amongst humans.',
             information: "He is our exceptional drummer who keeps the rhythm tight and the energy high. With an innate sense of rhythm and a natural ability to improvise, he brings a dynamic presence to our performances. Whether it's following the structured beats of our songs or creating spontaneous fills on the spot, he never fails to impress. In addition to his drumming prowess, he contributes backing vocals, adding depth and harmony to our sound. As the host of most of our band practices, his house has become the creative hub where we refine our music and strengthen our bond as a band. With his infectious energy and unwavering commitment, he sets the beat that drives us forward, making each rehearsal and performance a memorable one.",
@@ -78,7 +78,7 @@ window.onload = function() {
                 }
             ]
         },
-        'cory-s': {
+        'cory': {
             name: 'Cory Shepherd',
             description: 'Cory is Cory.',
             information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
@@ -99,7 +99,7 @@ window.onload = function() {
                 }
             ]
         },
-        'jax-i': {
+        'jax': {
             name: 'Jax Ingham',
             description: 'Jax is our photographer.',
             information: "Jax is the beating heart behind the scenes, our band's roadie and visionary photographer. His relentless dedication ensures seamless performances while his lens captures the raw energy and emotion of our musical voyage. From stage setups to candid moments, Jax crafts visual tales that resonate, shaping our band's identity and leaving an enduring impact on our journey.",

@@ -14,27 +14,18 @@ function toggleSideMenu() {
       <li><a href="wishlist" target="_self">Wishlist</a></li>
       <li><a href="inclusivity" target="_self">Inclusivity</a></li>
       <li><a href="LICENSE" target="_self">License</a></li>
+	  <hr>
+	  <li><button id="theme-toggle" class="theme blue" onclick="toggleTheme()">Toggle Theme</button></li>
     </ul>
   `;
 
   if (isOpen) {
     // If the side menu is open, remove open class and animate the items out
     sideMenu.classList.remove("open");
-
-    // Delay setting the innerHTML until after the closing animation
-    setTimeout(function () {
       sideMenu.innerHTML = htmlContent;
-    }, 300); // Adjust the delay time (in milliseconds) to match your animation duration
   } else {
     // If the side menu is closed, set innerHTML first, then add the open class and animate the items in
     sideMenu.innerHTML = htmlContent;
-
-    // Delay adding the open class until after the innerHTML is set
-    setTimeout(function () {
       sideMenu.classList.add("open");
-      for (var i = 0; i < sideMenu.children.length; i++) {
-        sideMenu.children[i].style.transitionDelay = i * 20 + "ms";
-      }
-    }, 0); // Delay of 0 milliseconds to ensure the innerHTML is set first
   }
 }
