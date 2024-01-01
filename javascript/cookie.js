@@ -46,4 +46,12 @@ function applyTheme(theme) {
   
   const hiringSVGContainer = document.getElementById("hiringSVG");
   const jobsSVGContainer = document.getElementById("jobsSVG");
+  
+  if (currentTheme === "styles/light.css") {
+	  hiringSVGContainer.innerHTML = `<img class="svg preview littleimg space" src="images/icons/light-calendar.svg" alt="Calendar Icon (For booking)">`;
+	  jobsSVGContainer.innerHTML = `<img class="svg preview littleimg space" src="images/icons/light-hired.svg" alt="Hired Icon (For jobs)">`;
+  } else {
+	  hiringSVGContainer.innerHTML = `<img class="svg preview littleimg space" src="images/icons/dark-calendar.svg" alt="Calendar Icon (For booking)">`;
+	  jobsSVGContainer.innerHTML = `<img class="svg preview littleimg space" src="images/icons/dark-hired.svg" alt="Hired Icon (For jobs)">`;
+  }
 }
