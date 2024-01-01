@@ -18,6 +18,11 @@
   status = 301
 
 [[redirects]]
+  from = "/link/icons"
+  to = "/404"
+  status = 301
+
+[[redirects]]
   from = "/link/icons/main"
   to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   status = 301
