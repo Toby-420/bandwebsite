@@ -216,7 +216,7 @@ img {
 	top: 0;
 	right: -250px;
 	width: 250px;
-	max-width: 100%;
+	max-width: 110%;
 	height: auto;
 	background-color: #fff;
 	z-index: 999;
@@ -269,9 +269,9 @@ img {
 	left: -250px;
 	width: calc(250px + 4px);
 	height: 100%;
-	background-color: #000;
 	z-index: -1;
 }
+
 @media (max-width: 1320px) {
 	.grid-container, .grid-container-home {
 		display: inline;
@@ -438,7 +438,6 @@ img {
 		left: -250px;
 		width: calc(250px + 4px);
 		height: 100%;
-		background-color: #000;
 		z-index: -1;
 	}
 
