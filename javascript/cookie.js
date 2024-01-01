@@ -2,10 +2,12 @@
 let cookiesAccepted = false;
 let themePreference = localStorage.getItem("themePreference");
 let currentTheme = themePreference || "styles/light.css";
-function applyTheme(currentTheme)
 
 if (themePreference != null) {
 	cookiesAccepted = true;
+	applyTheme(currentTheme);
+} else {
+	applyTheme("styles/light.css");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
