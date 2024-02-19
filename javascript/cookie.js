@@ -6,12 +6,21 @@ const hiringSVGContainer = document.getElementById("hiringSVG");
 const jobsSVGContainer = document.getElementById("jobsSVG");
 const X_Logo = document.getElementById("X_Logo");
 
-if (themePreference != null) {
-	cookiesAccepted = true;
-	applyTheme(currentTheme);
-} else {
-	applyTheme("https://deepsealemons.co.uk/styles/light.css");
-}
+document.body.style.visibility = "hidden";
+
+// Add an event listener for the 'load' event
+window.addEventListener("load", function () {
+    // Show the content once the page has fully loaded
+    document.body.style.visibility = "visible";
+
+    // Apply the theme based on the user's preference
+    if (themePreference != null) {
+        cookiesAccepted = true;
+        applyTheme(currentTheme);
+    } else {
+        applyTheme("https://deepsealemons.co.uk/styles/light.css");
+    }
+});
 
 function toggleTheme() {
   currentTheme = currentTheme === "https://deepsealemons.co.uk/styles/light.css" ? "https://deepsealemons.co.uk/styles/dark.css" : "https://deepsealemons.co.uk/styles/light.css";
