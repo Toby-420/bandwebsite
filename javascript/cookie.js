@@ -1,10 +1,12 @@
 // Technically not cookie but who gives a shit
+document.body.style.visibility = "hidden";
 let themePreference = localStorage.getItem("themePreference");
 let currentTheme = themePreference || "https://deepsealemons.co.uk/styles/light.css";
   
 const hiringSVGContainer = document.getElementById("hiringSVG");
 const jobsSVGContainer = document.getElementById("jobsSVG");
 const X_Logo = document.getElementById("X_Logo");
+
 
 if(window.matchMedia('(prefers-color-scheme: dark)').matches){
   applyTheme("https://deepsealemons.co.uk/styles/dark.css");
