@@ -34,6 +34,7 @@
 	</script>
 
 	<header>
+		<!-- <img class="widthIcon preview" alt="Deep Sea Lemons Logo" src="images/fullSizeIcon.webp"> -->
 		<h1>Deep Sea Lemons</h1>
 		<button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
 		<span class="hamburger-box" role="presentation">
@@ -58,29 +59,23 @@
 			<div class="thumb space">
 				<a href="hiring" target="_self">
 					<p>Book us / Events</p>
-						<div id="hiringSVG"></div>
+						<img class="svg preview littleimg space" src="images/icons/light-calendar.svg" alt="Calendar Icon (For booking)" id="hiringSVG">
 					</a>
 			</div>
 			<div class="thumb space">
 				<a href="jobs" target="_self">
 					<p>Get hired / Jobs</p>
-						<div id="jobsSVG"></div>
+						<img class="svg preview littleimg space" src="images/icons/light-hired.svg" alt="Hired Icon (For jobs)" id="jobsSVG">
 					</a>
 			</div>
 		</div>
 		
-		<div id="cookie-consent" style = "display: none">
-			<p>This website uses local storage to store the theme used</p>
-				<button class="theme green" onclick="acceptCookie(currentTheme)">Accept</button>
-				<button class="theme red"	  onclick="rejectCookie(currentTheme)">Reject</button>
-		</div>
-		
-		<div class="socials-sponsors" >
+		<div class="socials-sponsors" id="socials-sponsors">
 			<div>
 				<hr>
 
 				<a href="https://twitter.com/DeepSeaLemons/" target="_blank" class="preview">
-					<img src="images/icons/twitter.webp" alt="Our twitter" class="preview tinyimg frontpageicon">
+					<img src="images/icons/twitter.webp" alt="Our twitter" class="preview tinyimg frontpageicon" id="X_Logo">
 				</a>
 				<a href="https://www.instagram.com/deep_sea_lemons/" target="_blank" class="preview">
 					<img src="images/icons/instagram.webp" alt="Our instagram" class="preview tinyimg frontpageicon">
@@ -109,6 +104,26 @@
 		<br>
 	</main>
 	<script src="javascript/cookie.js" async></script>
+	
+  <script>
+    function adjustFooterPosition() {
+      const content = document.getElementById('content');
+      const socialsSponsors = document.getElementById('socials-sponsors');
+
+      socialsSponsors.style.height = 'auto'; // Reset height to auto to measure content height
+      
+      if (content.offsetHeight + socialsSponsors.offsetHeight < window.innerHeight) {
+        socialsSponsors.style.position = 'absolute';
+        socialsSponsors.style.bottom = '0';
+      } else {
+        socialsSponsors.style.position = 'static'; // Allow content to push it downwards
+      }
+    }
+
+    // Adjust footer position initially and on window resize
+    adjustFooterPosition();
+    window.addEventListener('resize', adjustFooterPosition);
+  </script>
 
 </body>
 

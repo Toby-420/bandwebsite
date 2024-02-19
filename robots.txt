@@ -5,3 +5,4 @@ Disallow: /images/*
 Disallow: /javascript/*
 Disallow: /fonts/*
 Disallow: /404.htm
+Disallow: /members/*
