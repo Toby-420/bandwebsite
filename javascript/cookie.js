@@ -10,7 +10,6 @@ const X_Logo = document.getElementById("X_Logo");
 window.addEventListener("load", function () {
 	// Apply the theme based on the user's preference
 	if (themePreference != null) {
-		cookiesAccepted = true;
 		applyTheme(currentTheme);
 	} else {
 		applyTheme("https://deepsealemons.co.uk/styles/light.css");
