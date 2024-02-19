@@ -10,8 +10,10 @@ window.addEventListener("load", function () {
   // Apply the theme based on the user's preference
   if (themePreference != null) {
 	applyTheme(currentTheme);
+	updateThemePreference(currentTheme);
   } else {
 	applyTheme("https://deepsealemons.co.uk/styles/light.css");
+	updateThemePreference("https://deepsealemons.co.uk/styles/light.css");
   }
 });
 
@@ -19,12 +21,12 @@ function toggleTheme() {
   currentTheme = currentTheme === "https://deepsealemons.co.uk/styles/light.css" ? "https://deepsealemons.co.uk/styles/dark.css" : "https://deepsealemons.co.uk/styles/light.css";
   applyTheme(currentTheme);
   updateThemePreference(currentTheme);
-  document.body.style.visibility = "visible";
 }
 
 function updateThemePreference(theme) {
   localStorage.setItem("themePreference", theme);
   themePreference = theme; // Update themePreference variable
+  document.body.style.visibility = "visible";
 }
 
 function applyTheme(theme) {
