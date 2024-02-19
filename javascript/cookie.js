@@ -19,6 +19,7 @@ function toggleTheme() {
   currentTheme = currentTheme === "https://deepsealemons.co.uk/styles/light.css" ? "https://deepsealemons.co.uk/styles/dark.css" : "https://deepsealemons.co.uk/styles/light.css";
   applyTheme(currentTheme);
   updateThemePreference(currentTheme);
+  document.body.style.visibility = "visible";
 }
 
 function updateThemePreference(theme) {
@@ -39,5 +40,4 @@ function applyTheme(theme) {
 	  jobsSVGContainer.setAttribute("src", "images/icons/dark-hired.svg");
 	  X_Logo.setAttribute("src", "images/icons/x-white.png");
   }
-  document.body.style.visibility = "visible";
 }
