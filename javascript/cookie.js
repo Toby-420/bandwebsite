@@ -7,15 +7,6 @@ const hiringSVGContainer = document.getElementById("hiringSVG");
 const jobsSVGContainer = document.getElementById("jobsSVG");
 const X_Logo = document.getElementById("X_Logo");
 
-
-if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-  applyTheme("https://deepsealemons.co.uk/styles/dark.css");
-} else {
-  applyTheme("https://deepsealemons.co.uk/styles/light.css");
-}
-
-document.body.style.visibility = "hidden";
-
 // Add an event listener for the 'load' event
 window.addEventListener("load", function () {
     // Show the content once the page has fully loaded
