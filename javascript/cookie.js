@@ -18,11 +18,9 @@ window.addEventListener("load", function () {
 });
 
 function toggleTheme() {
-  document.body.style.visibility = "hidden";
   currentTheme = currentTheme === "https://deepsealemons.co.uk/styles/light.css" ? "https://deepsealemons.co.uk/styles/dark.css" : "https://deepsealemons.co.uk/styles/light.css";
   applyTheme(currentTheme);
   updateThemePreference(currentTheme);
-  document.body.style.visibility = "visible";
 }
 
 function updateThemePreference(theme) {
@@ -31,6 +29,7 @@ function updateThemePreference(theme) {
 }
 
 function applyTheme(theme) {
+  document.body.style.visibility = "hidden";
   document.getElementById("css_standard").setAttribute("href", theme);
   
   if (currentTheme === "https://deepsealemons.co.uk/styles/light.css") {
@@ -42,4 +41,5 @@ function applyTheme(theme) {
 	  jobsSVGContainer.setAttribute("src", "images/icons/dark-hired.svg");
 	  X_Logo.setAttribute("src", "images/icons/x-white.png");
   }
+  document.body.style.visibility = "visible";
 }
