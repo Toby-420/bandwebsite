@@ -15,6 +15,7 @@ window.addEventListener("load", function () {
 	applyTheme("https://deepsealemons.co.uk/styles/light.css");
 	updateThemePreference("https://deepsealemons.co.uk/styles/light.css");
   }
+  document.body.style.visibility = "visible";
 });
 
 function toggleTheme() {
