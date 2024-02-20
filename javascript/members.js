@@ -41,7 +41,7 @@ window.onload = function() {
                 }
             ],
             images: [{
-                    src: 'jack_1.webp',
+                    src: 'jack_1_thumb.webp',
                     alt: 'Jack performing at Brodstock 2023'
                 }
             ]
@@ -73,7 +73,7 @@ window.onload = function() {
             links: [
             ],
             images: [{
-                    src: 'matthew_1.webp',
+                    src: 'matthew_1_thumb.webp',
                     alt: 'Caveman matthew'
                 }
             ]
