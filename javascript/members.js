@@ -78,6 +78,22 @@ window.onload = function() {
                 }
             ]
         },
+        'maddie': {
+            name: 'Maddie Brown',
+            description: 'Maddie is our social media representative.',
+            information: "PLACEHOLDER",
+            links: [{
+                    url: 'https://www.instagram.com/maddie_2903',
+                    alt: "Maddie's Instagram",
+					imageSrc: 'instagram.webp'
+                },
+            ],
+            images: [{
+                    src: 'maddie_1_thumb.webp',
+                    alt: 'Maddie mirror picture'
+                }
+            ]
+        },
         'cory': {
             name: 'Cory Shepherd',
             description: 'Cory is Cory.',
