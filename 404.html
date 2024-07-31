@@ -5,7 +5,7 @@
 <head>
     <title>404</title>
 
-    <link rel="stylesheet" type="text/css" href="https://deepsealemons.co.uk/styles/dark.css" title="default" id="css_standard">
+    <link rel="stylesheet" type="text/css" href="styles/dark.css" title="default" id="css_standard">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <!-- God I hate you, Apple! -->
@@ -26,58 +26,19 @@
 <body>
 
 
-    <header>
-		<h1>Error 404</h1>
-        <button class="htg-hamburger hamburger hamburger--slider" onclick="toggleSideMenu()" type="button" aria-label="Hamburger menu">
-	<span class="hamburger-box" role="presentation">
-	<span class="hamburger-inner" role="presentation">&#9776;</span>
-	</span>
-	</button>
-
-		<div class="side-menu" id="sideMenu"></div>
-    </header>
+	<header>
+		<a href="https://deepsealemons.co.uk"><img alt="Deep Sea Lemons Logo" src="images/favicon.ico" height="128px" width="128px" class="frontpagelogo"></a>
+		<h1 class="pagetitle">Error 404</h1>
+	</header>
 
     <main>
 		<h2>What this means:</h2>
-		<p class="center">The requested file could not be found on this site</p>
+		<p class="center">The requested page could not be found on this site</p>
 		<br>
 		<h2>What to do:</h2>
-		<p class="center">Check the url in the address bar. If you were sent here by a page on this site, please <a href="mailto:deepsealemonsofficial@gmail.com" target="_self">let us know</a>.</p>
+		<p class="center">Check the URL in the address bar. If you were sent here by a page on this site, please <a href="mailto:deepsealemonsofficial@gmail.com" target="_self">let us know</a>.</p>
   </main>
 
 </body>
-	
-		<script>
-			function toggleSideMenu() {
-			
-			var sideMenu = document.getElementById("sideMenu");
-			var isOpen = sideMenu.classList.contains("open");
-			var htmlContent = `
-				<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="members" target="_self">Meet the members</a></li>
-					<li><a href="booking" target="_self">Book us / Events</a></li>
-					<li><a href="jobs" target="_self">Get hired / Jobs</a></li>
-					<li><a href="gallery" target="_self">Gallery</a></li>
-					<li><a href="tabs" target="_self">Tabs</a></li>
-					<li><a href="wishlist" target="_self">Wishlist</a></li>
-					<li><a href="inclusivity" target="_self">Inclusivity</a></li>
-					<li><a href="LICENSE" target="_self">License</a></li>
-				<hr>
-				<li><button id="theme-toggle" class="theme blue" onclick="toggleTheme()">Toggle Theme</button></li>
-				</ul>
-			`;
-
-			if (isOpen) {
-				sideMenu.classList.remove("open");
-					sideMenu.innerHTML = htmlContent;
-			} else {
-				sideMenu.innerHTML = htmlContent;
-					sideMenu.classList.add("open");
-			}
-		}
-
-		</script>
-		<script src="/javascript/cookie.js" async></script>
 
 </html>

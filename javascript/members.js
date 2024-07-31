@@ -7,21 +7,12 @@ window.onload = function() {
         'toby': {
             name: 'Toby Valentine',
             description: 'Toby is our extraordinary bassist, the backbone of our band.',
-            information: "Armed with an Ibanez Soundgear bass and an SX 5-string bass, he effortlessly lays down the foundation of our music. With a keen sense of groove, he infuses our songs, be it original compositions or covers, with an infectious rhythm that moves the audience. His skill on the bass is unparalleled, earning him the admiration of the entire band. In fact, his mastery has led some to jokingly claim that he can play our instruments better than we can. With his impeccable timing and unwavering dedication, he brings the heartbeat to our music, making each performance an unforgettable experience.",
-            links: [{
-                    url: 'https://www.github.com/toby-420',
-                    alt: "Toby's Github",
-					imageSrc: 'github.webp'
-                },
+            information: "I'm Toby and I play the bass in Deep Sea Lemons. Ever since meeting Jim years ago, I've found significant fun jamming and being around the other guys. My love for music extends way before that as there are stories of me dancing to 'Killing in the Name' when it reached Number 1 at christmas. I take inspiration from legends such as Bernard Edwards (Chic), Billy Gould (Faith No More), and Nick Seymour (Crowded House). I hope we'll see you all at our future gigs. See you there!",
+            links: [
                 {
-                    url: 'https://www.youtube.com/channel/UC0R8dqUIzuBawjdi6zD2piQ',
-                    alt: "Toby's YouTube",
-					imageSrc: 'youtube.webp'
-                },
-                {
-                    url: 'https://tobyvalentine.netlify.app',
-                    alt: "Toby's website",
-					imageSrc: 'toby.png' // its a key not a cock
+                    url: 'https://www.instagram.com/toby__valentine/',
+                    alt: "Toby's Instagram",
+					imageSrc: 'instagram.webp'
                 }
             ],
             images: [{
@@ -32,7 +23,7 @@ window.onload = function() {
         },
         'jack': {
             name: 'Jack Weatherall',
-            description: 'Jack is our lead vocalist and rhythm guitarist',
+            description: 'Jack plays guitar and sings alongside Jim',
             information: "With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
@@ -48,8 +39,8 @@ window.onload = function() {
         },
         'jim': {
             name: 'Jim Simpson-Millott',
-            description: 'Jim is our Lead guitarist who also sings sometimes',
-            information: "He effortlessly captivates audiences with his virtuosic performances on the Fender Stratocaster and Les Paul guitars. His versatile playing style spans various genres, from searing solos to delicate arpeggios, resonating deeply with listeners. Not only a master of the instrument, he also contributes his powerful vocals, adding harmony and depth to the band's sound. His ability to craft mesmerizing melodies and riffs leaves an indelible impression on all who have the pleasure of hearing him play.",
+            description: 'Jim plays guitar and sings alongside Jack',
+            information: "I’m Jim and I sing and play guitar. I absolutely love being in Deep Sea Lemons and I have done since I formed the band with Toby in around about 2019. Since I was about nine I’ve had an insatiable passion for playing guitar and making music. When I was little I distinctly remember my mum’s radio playing at all times and how I would take her CDs and listen to them on repeat. Music has and always will be a huge part of my life. Don’t forget that our journey as a band has only just begun; we have many original songs on the way which I know you will love. I hope to see you all in the crowd at our gigs in the near future. Let’s have it!",
             links: [{
                     url: 'https://www.instagram.com/james.brooks23/',
                     alt: "Jim's Instagram",
@@ -69,49 +60,16 @@ window.onload = function() {
         'matthew': {
             name: 'Matthew Wharram',
             description: 'Matthew is a caveman who has developed the skill to talk amongst humans.',
-            information: "He is our exceptional drummer who keeps the rhythm tight and the energy high. With an innate sense of rhythm and a natural ability to improvise, he brings a dynamic presence to our performances. Whether it's following the structured beats of our songs or creating spontaneous fills on the spot, he never fails to impress. In addition to his drumming prowess, he contributes backing vocals, adding depth and harmony to our sound. As the host of most of our band practices, his house has become the creative hub where we refine our music and strengthen our bond as a band. With his infectious energy and unwavering commitment, he sets the beat that drives us forward, making each rehearsal and performance a memorable one.",
-            links: [
+            information: "Hi, Matt here! I'm incredibly passionate about playing the drums and with my dedication to the music and confidence, I'm sure that the groove will resonate with you. Slipknot and Rush are amongst some of the great bands who have inspired me with my drumming along with those infectious grooves from Red Hot Chili Peppers. Being a part of this band is an incredibly important part of who I am, so I hope you enjoy our gigs as much as I do!",
+            links: [{
+                    url: 'https://www.instagram.com/mattwharr1/',
+                    alt: "Matt's Instagram",
+					imageSrc: 'instagram.webp'
+                }
             ],
             images: [{
                     src: 'matthew_1_thumb.webp',
                     alt: 'Caveman matthew'
-                }
-            ]
-        },
-        'maddie': {
-            name: 'Maddie Brown',
-            description: 'Maddie is our social media representative.',
-            information: "PLACEHOLDER",
-            links: [{
-                    url: 'https://www.instagram.com/maddie_2903',
-                    alt: "Maddie's Instagram",
-					imageSrc: 'instagram.webp'
-                },
-            ],
-            images: [{
-                    src: 'maddie_1_thumb.webp',
-                    alt: 'Maddie mirror picture'
-                }
-            ]
-        },
-        'cory': {
-            name: 'Cory Shepherd',
-            description: 'Cory is Cory.',
-            information: "In addition to his remarkable support and musical prowess, our devoted roadie is also a creative force in his own right. Not only has he invented the word 'scrootboog', adding a touch of whimsy to our band's vocabulary, but he also channels his passion into creating his own music. With a unique artistic vision, he fearlessly explores different genres and expresses his creativity through composition and production. His inventive spirit inspires us all and reminds us of the boundless possibilities that music holds. Our roadie's multifaceted talents and infectious enthusiasm make him an invaluable member of our crew, enriching our musical journey with his creativity and friendship.",
-            links: [{
-                    url: 'https://github.com/SicariusAtlas',
-                    alt: "Cory's Github",
-					imageSrc: 'github.webp'
-                },
-                {
-                    url: 'https://www.youtube.com/@sicariusatlas/',
-                    alt: "Cory's Youtube",
-					imageSrc: 'youtube.webp'
-                }
-            ],
-            images: [{
-                    src: 'cory_1_thumb.webp',
-                    alt: "Cory's portait in a dark style"
                 }
             ]
         },
@@ -145,7 +103,7 @@ window.onload = function() {
     for (var i = 0; i < personData.images.length; i++) {
       var image = personData.images[i];
       var imageHTML = '<div class="thumb">';
-      imageHTML += '<img src="images/members/' + image.src + '" alt="' + image.alt + '" class="preview mediumimg">';
+      imageHTML += '<img src="images/members/' + image.src + '" alt="' + image.alt + '" class="galleryImg">';
       imageHTML += '</div>';
       imagesHTML += imageHTML;
     }
@@ -158,13 +116,13 @@ window.onload = function() {
     var linksHTML = '';
     for (var i = 0; i < personData.links.length; i++) {
       var link = personData.links[i];
-      var linkHTML = '<a href="' + link.url + '" target="_blank">';
-      linkHTML += '<img src="images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="preview littleimg memberimg">';
+      var linkHTML = '<a href="' + link.url + '" target="_self">';
+      linkHTML += '<img src="images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="logos">';
       linkHTML += '</a>';
       linksHTML += linkHTML;
     }
     linksElement.innerHTML = linksHTML;
   } else {
-    linksElement.innerHTML = 'No links available.';
+    linksElement.innerHTML = 'No links.';
   }
 };
