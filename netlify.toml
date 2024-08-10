@@ -50,8 +50,3 @@
   from = "/link/main"
   to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   status = 301
-
-[[redirects]]
-  from = "/link/icons/mini"
-  to = "https://www.youtube.com/watch?v=krDxhnaKD7Q"
-  status = 301
