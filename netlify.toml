@@ -4,6 +4,21 @@
   from = "/hiring"
   to = "/booking"
   status = 301
+  
+[[redirects]]
+  from = "/instagram"
+  to = "https://www.instagram.com/deep_sea_lemons/"
+  status = 301
+  
+[[redirects]]
+  from = "/facebook"
+  to = "https://www.facebook.com/people/Deep-Sea-Lemons/61550058405169/"
+  status = 301
+  
+[[redirects]]
+  from = "/email"
+  to = "mailto://deepsealemonsofficial@gmail.com"
+  status = 301
 
 # Custom link shortening / changing (Personal)-----------------------------------------------------------------
 
@@ -21,6 +36,7 @@
   from = "/link/icons"
   to = "/404"
   status = 404
+
 # Custom link shortening / changing (Business)-----------------------------------------------------------------
 
 [[redirects]]
