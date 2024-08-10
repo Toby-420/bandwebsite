@@ -12,7 +12,8 @@ window.onload = function() {
                 {
                     url: 'https://www.instagram.com/toby__valentine/',
                     alt: "Toby's Instagram",
-					imageSrc: 'instagram.webp'
+					imageSrc: 'instagram.webp',
+					captionText: "Instagram"
                 }
             ],
             images: [{
@@ -28,7 +29,8 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
                     alt: "Jack's Instagram",
-					imageSrc: 'instagram.webp'
+					imageSrc: 'instagram.webp',
+					captionText: "Instagram"
                 }
             ],
             images: [{
@@ -44,7 +46,8 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/james.brooks23/',
                     alt: "Jim's Instagram",
-					imageSrc: 'instagram.webp'
+					imageSrc: 'instagram.webp',
+					captionText: "Instagram"
                 }
             ],
             images: [{
@@ -64,7 +67,8 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/mattwharr1/',
                     alt: "Matt's Instagram",
-					imageSrc: 'instagram.webp'
+					imageSrc: 'instagram.webp',
+					captionText: "Instagram"
                 }
             ],
             images: [{
@@ -80,7 +84,8 @@ window.onload = function() {
             links: [{
                     url: 'https://www.instagram.com/pvnk._.frogs/',
                     alt: "Jax's Instagram",
-					imageSrc: 'instagram.webp'
+					imageSrc: 'instagram.webp',
+					captionText: "Instagram"
                 },
             ],
             images: [{
@@ -116,9 +121,12 @@ window.onload = function() {
     var linksHTML = '';
     for (var i = 0; i < personData.links.length; i++) {
       var link = personData.links[i];
-      var linkHTML = '<a href="' + link.url + '" target="_self">';
+      var linkHTML = '<figure class="item">';
+	  linkHTML += '<a href="' + link.url + '" target="_self">';
       linkHTML += '<img src="images/icons/' + link.imageSrc + '" alt="' + link.alt + '" class="logos">';
+      linkHTML += '<figcaption class="caption" style="z-index:9999"><p>' + link.captionText + '</p></figcaption>';
       linkHTML += '</a>';
+	  linkHTML += '</figure>';
       linksHTML += linkHTML;
     }
     linksElement.innerHTML = linksHTML;
