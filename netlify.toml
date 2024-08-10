@@ -31,7 +31,7 @@
 # Custom link shortening / changing (Other)--------------------------------------------------------------------
 
 [[redirects]]
-  from = "/link/icons/main"
+  from = "/link/main"
   to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   status = 301
 
