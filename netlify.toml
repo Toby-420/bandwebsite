@@ -19,6 +19,11 @@
   from = "/email"
   to = "mailto://deepsealemonsofficial@gmail.com"
   status = 301
+	
+[[redirects]]
+  from = "/tiktok"
+  to = "https://www.tiktok.com/@deepsealemonsofficial"
+  status = 301
 
 # Custom link shortening / changing (Personal)-----------------------------------------------------------------
 
