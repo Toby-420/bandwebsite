@@ -25,7 +25,7 @@ window.onload = function() {
         'jack': {
             name: 'Jack Weatherall',
             description: 'Jack plays guitar and sings alongside Jim',
-            information: "With a Les Paul built with their own hands and the powerful Epiphone Firebird at their disposal, they command the stage with charisma and passion. As the driving force behind our band, their vocals soar with emotion and captivate audiences with every note. With an innate ability to create captivating riffs, they infuse our music with an irresistible energy. Their dedication to their craft shines through, making them a true powerhouse on stage.",
+            information: "Hi, I'm Jack, I play guitar and sing backing vocals along side of Jim. When I joined Deep Sea Lemons back in 2022, it was new and exciting experience for me as I had always wanted to be in a band and this meant I finally got to be in one. Over the last few years, we have had one hell of a journey from being on a stage at Brodstock music festival, to now, writing our own music. This band plays a big part in my life, so does music as a whole, I love the buzz of playing live and listening to an audience scream the songs we play. I can't wait to see where DSL takes me and the rest of the band, see yous out there.",
             links: [{
                     url: 'https://www.instagram.com/jackweatherall01/',
                     alt: "Jack's Instagram",
@@ -77,23 +77,23 @@ window.onload = function() {
                 }
             ]
         },
-        'jax': {
-            name: 'Jax Ingham',
-            description: 'Jax is our photographer.',
-            information: "Jax is the beating heart behind the scenes, our band's roadie and visionary photographer. His relentless dedication ensures seamless performances while his lens captures the raw energy and emotion of our musical voyage. From stage setups to candid moments, Jax crafts visual tales that resonate, shaping our band's identity and leaving an enduring impact on our journey.",
-            links: [{
-                    url: 'https://www.instagram.com/pvnk._.frogs/',
-                    alt: "Jax's Instagram",
-					imageSrc: 'instagram.webp',
-					captionText: "Instagram"
-                },
-            ],
-            images: [{
-                    src: 'jax_1_thumb.webp',
-                    alt: "Jax standing under a shelter"
-                },
-            ]
-        },
+        // 'reuben': {
+            // name: 'Reuben Jones',
+            // description: 'Reuben is our photographer and roadie.',
+            // information: "PLACEHOLDER",
+            // links: [{
+                    // url: 'https://www.instagram.com/wubub07/',
+                    // alt: "Reuben's Instagram",
+					// imageSrc: 'instagram.webp',
+					// captionText: "Instagram"
+                // },
+            // ],
+            // images: [{
+                    // src: 'reuben_1_thumb.webp',
+                    // alt: "PLACEHOLDER"
+                // },
+            // ]
+        // },
     };
   var personData = peopleData[name];
   var nameElement = document.getElementById('name');
